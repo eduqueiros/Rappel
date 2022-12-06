@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b33df244636c86ff7738c5f37b97ea8f"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="177dp"
+        android:layout_height="164dp"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="2dp"
+        android:scaleType="centerInside"
+        android:scaleX="1"
+        android:scaleY="1"
+        app:srcCompat="@drawable/imagem1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif"
+        android:text="Qual a sua altura?"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/altura"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        android:background="@color/white"
+        android:backgroundTint="#B8B4AF"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+    <Button
+        android:id="@+id/continuaraltura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="#FF9800"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:text="continuar" />
+
+</LinearLayout>
