@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/editar"
+        android:title="Editar Perfil"
+        app:showAsAction="never"> </item>
+    <item android:id="@+id/lembretes"
+    android:title="Lembretes"
+    app:showAsAction="never"> </item>
+    <item android:id="@+id/convidar"
+        android:title="Convidar Amigos"
+        app:showAsAction="never"> </item>
+    <item android:id="@+id/contactos"
+        android:title="Contactos"
+        app:showAsAction="never"> </item>
+
+    <item android:id="@+id/corpo"
+        android:title="Meu Corpo"
+        app:showAsAction="ifRoom"> </item>
+    <item android:id="@+id/metas"
+        android:title="Metas"
+        app:showAsAction="ifRoom"> </item>
+</menu>
+
