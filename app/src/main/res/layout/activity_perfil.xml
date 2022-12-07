@@ -6,22 +6,58 @@
     android:layout_height="match_parent"
     tools:context=".perfil">
 
-    <Button
-        android:id="@+id/b1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageView
+        android:id="@+id/inicio"
+        android:layout_width="52dp"
+        android:layout_height="61dp"
         android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="7dp"
+        android:onClick="inicial"
+        app:srcCompat="@drawable/imagem1" />
 
-        >
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="42dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="85dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/_bc778d0c20c509a77c0c81c38c2abbe" />
 
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="40dp"
+        android:layout_height="43dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/planodesaude" />
 
-    </Button>
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="51dp"
+        android:layout_height="49dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="98dp"
+        android:layout_marginRight="87dp"
+        android:layout_marginBottom="9dp"
+        app:srcCompat="@drawable/plano" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="Button" />
-
+    <ImageView
+        android:id="@+id/perfil2"
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginBottom="9dp"
+        android:onClick="perfil2"
+        app:srcCompat="@drawable/_250689" />
 </RelativeLayout>
