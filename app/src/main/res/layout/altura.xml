@@ -41,10 +41,7 @@
         android:backgroundTint="#B8B4AF"
         android:ems="10"
         android:inputType="numberDecimal" />
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/master
     <Button
         android:id="@+id/continuaraltura"
         android:layout_width="wrap_content"
@@ -55,13 +52,11 @@
         android:marqueeRepeatLimit="marquee_forever"
         android:text="continuar" />
 
-<<<<<<< HEAD
+
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Button" />
 
-=======
->>>>>>> origin/master
 </LinearLayout>
