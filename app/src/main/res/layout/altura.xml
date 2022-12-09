@@ -41,6 +41,7 @@
         android:backgroundTint="#B8B4AF"
         android:ems="10"
         android:inputType="numberDecimal" />
+
     <Button
         android:id="@+id/continuaraltura"
         android:layout_width="wrap_content"
@@ -50,5 +51,11 @@
         android:backgroundTint="#FF9800"
         android:marqueeRepeatLimit="marquee_forever"
         android:text="continuar" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
 
 </LinearLayout>
