@@ -19,5 +19,24 @@
     <item android:id="@+id/metas"
         android:title="Metas"
         app:showAsAction="ifRoom"> </item>
+    <item
+        android:title="Logoff"
+        android:id="@+id/signOutBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="604dp"
+        android:text="Sign Out"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:backgroundTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:showAsAction="never"> </item>
 </menu>
 

@@ -65,4 +65,24 @@
         android:onClick="perfil2"
         app:srcCompat="@drawable/_250689" />
 
+    <Button
+        android:id="@+id/signOutBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        app:backgroundTint="@color/black"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="-1dp"
+        android:layout_marginBottom="93dp"
+        android:text="Sign Out"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+    />
+
 </RelativeLayout>

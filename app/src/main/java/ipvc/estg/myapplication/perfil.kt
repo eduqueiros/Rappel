@@ -7,15 +7,29 @@ import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
 import android.view.View
+import android.widget.Button
 import android.widget.ImageView
+import android.widget.TextView
 import android.widget.Toast
+import com.google.firebase.auth.FirebaseAuth
 
 class perfil : AppCompatActivity() {
 
+    private lateinit var auth : FirebaseAuth
 
         override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_perfil)
+
+            auth = FirebaseAuth.getInstance()
+
+            val email = intent.getStringExtra("email")
+            val displayName = intent.getStringExtra("name")
+
+            findViewById<Button>(R.id.signOutBtn).setOnClickListener {
+                auth.signOut()
+                startActivity(Intent(this , MainActivity::class.java))
+            }
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
