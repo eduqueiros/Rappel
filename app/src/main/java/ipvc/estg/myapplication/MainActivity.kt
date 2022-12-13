@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
     fun sessao(view: View){
-        val perfil = Intent(this, perfil::class.java)
-        startActivity(perfil)
+        val logingoogle = Intent(this, logingoogle::class.java)
+        startActivity(logingoogle)
     }
 }
