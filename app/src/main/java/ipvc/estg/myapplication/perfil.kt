@@ -26,6 +26,8 @@ class perfil : AppCompatActivity() {
             val email = intent.getStringExtra("email")
             val displayName = intent.getStringExtra("name")
 
+            findViewById<TextView>(R.id.textView).text = displayName
+
             findViewById<Button>(R.id.signOutBtn).setOnClickListener {
                 auth.signOut()
                 startActivity(Intent(this , MainActivity::class.java))
