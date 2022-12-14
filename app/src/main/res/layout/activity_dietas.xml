@@ -61,4 +61,25 @@
         android:layout_marginBottom="9dp"
         android:onClick="perfil2"
         app:srcCompat="@drawable/_250689" />
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Pesquisar Produtos"
+        android:iconifiedByDefault="false"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/searchview_background"
+        android:queryBackground="@android:color/transparent"
+        />
+
+    <ListView
+        android:layout_width="192dp"
+        android:layout_height="374dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="24dp" />
 </RelativeLayout>
