@@ -44,6 +44,7 @@
 
     <Button
         android:id="@+id/continuarsemanasobjetivo"
+        android:onClick="objetivodieta"
         android:layout_width="154dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

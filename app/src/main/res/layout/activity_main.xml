@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/b33df244636c86ff7738c5f37b97ea8f"
     android:orientation="vertical"
-    tools:context=".altura">
+    tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/imageView"
@@ -23,6 +23,7 @@
 
     <Button
         android:id="@+id/criarperfil"
+        android:onClick="criarperfil"
         android:layout_width="187dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -30,18 +31,16 @@
         android:backgroundTint="#FF9800"
         android:backgroundTintMode="add"
         android:marqueeRepeatLimit="marquee_forever"
-        android:onClick="criar"
         android:text="CRIAR PERFIL" />
 
     <Button
-        android:id="@+id/iniciarsessao"
+        android:id="@+id/ganharpeso"
         android:layout_width="188dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:backgroundTint="#FF9800"
         android:marqueeRepeatLimit="marquee_forever"
-        android:onClick="sessao"
         android:text="INICIAR SESSÃO" />
 
 </LinearLayout>

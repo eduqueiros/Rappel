@@ -235,6 +235,7 @@
 
     <Button
         android:id="@+id/continuarrefeicoes"
+        android:onClick="periodoobjetivo"
         android:layout_width="154dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
