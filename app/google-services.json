@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "482855607833",
+    "project_id": "rappel1",
+    "storage_bucket": "rappel1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482855607833:android:af16c13303b364b84e1488",
+        "android_client_info": {
+          "package_name": "ipvc.estg.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482855607833-idj6pt0tojg8esodcakdgrs5kjaqd987.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkhW0V7Pf8vC79eBINAa-flI3S7ujFmW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "482855607833-idj6pt0tojg8esodcakdgrs5kjaqd987.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
