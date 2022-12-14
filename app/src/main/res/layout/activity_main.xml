@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/b33df244636c86ff7738c5f37b97ea8f"
     android:orientation="vertical"
-    tools:context=".altura">
+    tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/imageView"
@@ -22,7 +22,8 @@
         app:srcCompat="@drawable/imagem1" />
 
     <Button
-        android:id="@+id/emagrecer"
+        android:id="@+id/criarperfil"
+        android:onClick="criarperfil"
         android:layout_width="187dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
