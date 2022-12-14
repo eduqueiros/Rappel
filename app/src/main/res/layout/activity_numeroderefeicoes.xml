@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b33df244636c86ff7738c5f37b97ea8f"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="?attr/homeAsUpIndicator" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="177dp"
+        android:layout_height="164dp"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="2dp"
+        android:scaleType="centerInside"
+        android:scaleX="1"
+        android:scaleY="1"
+        app:srcCompat="@drawable/imagem1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif"
+        android:text="Horário das refeições"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:text="Pequeno-Almoço:"
+            android:textAlignment="textEnd"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+        <EditText
+            android:id="@+id/horapalmoco"
+            android:layout_width="26dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="90dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:backgroundTint="#FF9800"
+            android:ems="10"
+            android:inputType="time" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:text="Lanche da manhã:"
+            android:textAlignment="textEnd"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/horalanchemanha"
+            android:layout_width="24dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="90dp"
+            android:layout_weight="1"
+            android:background="#020202"
+            android:backgroundTint="#FF9800"
+            android:ems="10"
+            android:inputType="time" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:text="         Almoço:"
+            android:textAlignment="textEnd"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/horaalmoco"
+            android:layout_width="17dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="90dp"
+            android:layout_weight="1"
+            android:background="#020202"
+            android:backgroundTint="#FF9800"
+            android:ems="10"
+            android:inputType="time" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:text="    Lanche da tarde:"
+            android:textAlignment="textEnd"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/horalanchetarde"
+            android:layout_width="23dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="90dp"
+            android:layout_weight="1"
+            android:background="#020202"
+            android:backgroundTint="#FF9800"
+            android:ems="10"
+            android:inputType="time" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:text="                    Jantar:"
+            android:textAlignment="textEnd"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/horajantar"
+            android:layout_width="16dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="90dp"
+            android:layout_weight="1"
+            android:background="#020202"
+            android:backgroundTint="#FF9800"
+            android:ems="10"
+            android:inputType="time" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:text="                        Ceia:"
+            android:textAlignment="textEnd"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/horaceia"
+            android:layout_width="16dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="90dp"
+            android:layout_weight="1"
+            android:background="#020202"
+            android:backgroundTint="#FF9800"
+            android:ems="10"
+            android:inputType="time" />
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/continuarrefeicoes"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="#FF9800"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:text="continuar" />
+
+
+</LinearLayout>
