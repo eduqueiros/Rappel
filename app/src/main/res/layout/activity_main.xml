@@ -34,12 +34,13 @@
         android:text="CRIAR PERFIL" />
 
     <Button
-        android:id="@+id/ganharpeso"
+        android:id="@+id/iniciarsessao"
         android:layout_width="188dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:backgroundTint="#FF9800"
+        android:onClick="sessao"
         android:marqueeRepeatLimit="marquee_forever"
         android:text="INICIAR SESSÃO" />
 
