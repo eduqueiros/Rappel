@@ -30,6 +30,7 @@
         android:backgroundTint="#FF9800"
         android:backgroundTintMode="add"
         android:marqueeRepeatLimit="marquee_forever"
+        android:onClick="criar"
         android:text="CRIAR PERFIL" />
 
     <Button
