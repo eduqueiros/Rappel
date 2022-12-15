@@ -20,11 +20,12 @@ class MainActivity : AppCompatActivity() {
         //   val intent = Intent(this, Sessao::class.java)
         //   startActivity(intent)
         //}
-        fun sessao(view: View){
-            val sessao = Intent(this, Sessao::class.java)
-            startActivity(sessao)
-
+        fun criarperfil(view: View){
+            val criarperfil = Intent(this, Sessao::class.java)
+            startActivity(criarperfil)
         }
+
+
 
 
 

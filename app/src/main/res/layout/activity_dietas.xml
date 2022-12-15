@@ -7,6 +7,17 @@
     android:background="@android:color/white"
     tools:context=".perfil">
 
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
     <ImageView
         android:id="@+id/inicio"
         android:layout_width="52dp"
@@ -61,4 +72,6 @@
         android:layout_marginBottom="9dp"
         android:onClick="perfil2"
         app:srcCompat="@drawable/_250689" />
+    
+
 </RelativeLayout>
