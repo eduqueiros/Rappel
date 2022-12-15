@@ -62,7 +62,7 @@ class perfil : AppCompatActivity() {
         }
     }
 
-    fun pdietas(view: View){
+    fun receitas(view: View){
         val dietas = Intent(this, dietas::class.java)
         startActivity(dietas)
     }
@@ -77,7 +77,7 @@ class perfil : AppCompatActivity() {
         startActivity(dietas)
     }
 
-    fun plano(view: View){
+    fun pdietas(view: View){
         val dietas = Intent(this, dietas::class.java)
         startActivity(dietas)
     }

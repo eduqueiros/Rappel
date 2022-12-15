@@ -18,14 +18,14 @@
         app:srcCompat="@drawable/imagem1" />
 
     <ImageView
-        android:id="@+id/pdietas"
+        android:id="@+id/receitas"
         android:layout_width="42dp"
         android:layout_height="40dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_marginRight="85dp"
         android:layout_marginBottom="10dp"
-        android:onClick="pdietas"
+        android:onClick="receitas"
         app:srcCompat="@drawable/_bc778d0c20c509a77c0c81c38c2abbe" />
 
     <ImageView
@@ -40,7 +40,7 @@
         app:srcCompat="@drawable/planodesaude" />
 
     <ImageView
-        android:id="@+id/plano"
+        android:id="@+id/pdietas"
         android:layout_width="51dp"
         android:layout_height="49dp"
         android:layout_alignParentLeft="true"
@@ -48,7 +48,7 @@
         android:layout_marginLeft="98dp"
         android:layout_marginRight="87dp"
         android:layout_marginBottom="9dp"
-        android:onClick="plano"
+        android:onClick="pdietas"
         app:srcCompat="@drawable/plano" />
 
     <ImageView
