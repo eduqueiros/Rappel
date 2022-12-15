@@ -32,8 +32,8 @@
         android:layout_height="wrap_content"
         android:textSize="18dp"
         android:layout_gravity="center"
-        android:background="@android:color/holo_orange_dark"
-        android:text="António Oliveira - ahugooliveira@ipvc.pt\nCarlos Queirós - cqueiros@ipvc.pt\nNuno Leitão - nleitao@ipvc.pt\nPedro Reis - pedroreis@ipvc.pt\nPedro Rodrigues - pedro.rodrigues@ipvc.pt\nRaul Moreira - raulmoreira@ipvc.pt"
+        android:textColor="@color/black"
+        android:text="António Oliveira - ahugooliveira@ipvc.pt\n\nCarlos Queirós - cqueiros@ipvc.pt\n\nNuno Leitão - nleitao@ipvc.pt\n\nPedro Reis - pedroreis@ipvc.pt\n\nPedro Rodrigues - pedro.rodrigues@ipvc.pt\n\nRaul Moreira - raulmoreira@ipvc.pt"
         />
 
 </LinearLayout>
