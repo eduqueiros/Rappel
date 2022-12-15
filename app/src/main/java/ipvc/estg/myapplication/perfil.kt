@@ -20,6 +20,7 @@ class perfil : AppCompatActivity() {
         override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_perfil)
+            supportActionBar!!.title = "Perfil"
 
             auth = FirebaseAuth.getInstance()
 

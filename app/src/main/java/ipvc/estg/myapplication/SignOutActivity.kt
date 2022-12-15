@@ -3,17 +3,19 @@ package ipvc.estg.myapplication
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
+import ipvc.estg.myapplication.databinding.ActivitySignOutBinding
 
 class SignOutActivity : AppCompatActivity() {
-    private lateinit var binding: ActivitySignUpBinding
+    private lateinit var binding: ActivitySignOutBinding
     private lateinit var firebaseAuth: FirebaseAuth
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        binding = ActivitySignUpBinding.inflate(layoutInflater)
+        binding = ActivitySignOutBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         firebaseAuth = FirebaseAuth.getInstance()
