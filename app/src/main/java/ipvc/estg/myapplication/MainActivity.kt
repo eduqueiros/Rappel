@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         startActivity(genero)
     }
     fun sessao(view: View){
-        val logingoogle = Intent(this, logingoogle::class.java)
-        startActivity(logingoogle)
+        val contadorpassos = Intent(this, contadorpassos::class.java)
+        startActivity(contadorpassos)
     }
 }
