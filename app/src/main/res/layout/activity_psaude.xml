@@ -85,7 +85,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="Contador de Passos" />
+        android:text="Contador de Passos"
+        android:onClick="passos"/>
 
     <Button
         android:id="@+id/IMC2"

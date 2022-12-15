@@ -23,4 +23,8 @@ class psaude : AppCompatActivity() {
         val dietas = Intent(this, dietas::class.java)
         startActivity(dietas)
     }
+    fun passos(view: View) {
+        val contadorpassos = Intent(this, contadorpassos::class.java)
+        startActivity(contadorpassos)
+    }
 }
