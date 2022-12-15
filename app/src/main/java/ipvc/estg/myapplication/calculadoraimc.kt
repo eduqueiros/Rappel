@@ -12,7 +12,7 @@ class calculadoraimc : AppCompatActivity() {
         setContentView(R.layout.activity_calculadoraimc)
 
 
-        supportActionBar!!.title = "Calculadora IMC"
+        supportActionBar!!.title = "Calculadora MC"
 
         calculate_btn.setOnClickListener {
 
