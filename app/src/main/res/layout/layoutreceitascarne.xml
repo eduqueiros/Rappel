@@ -1,11 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@android:color/white"
-    tools:context=".receitas">
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tituloreceita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="615dp"
+        android:height="50dp"
+        android:text="Carne assada com batata e queijo"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/ingredientes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingredientes:\n\n
+        4 batatas médias\n
+        600 g de carne\n
+        1 cebola picada\n
+        1 colher de sopa de sal\n
+        1 pitada de pimenta-do-reino\n
+        1 colher de chá de páprica doce\n
+        2 colheres de sopa de azeite\n
+        200 g de mozzarela ralada\n
+        Orégãos a gosto "
+        android:textColor="@color/black"
+        android:translationX="10dp"
+        android:translationY="100dp" />
+
+    <TextView
+        android:id="@+id/preparacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preparação:\n\n
+        Corte as batatas e a carne em cubinhos, e coloque-as
+         em um refratário; \n
+        Adicione também o sal, a pimenta, a páprica, a cebola, o azeite, e misture tudo;\n
+        Cubra o refratário com papel alumínio, e leve-o ao forno pré-aquecido a 200º graus por cerca de 40 a 50 minutos;\n
+        Retire o papel alumínio, acrescente o queijo ralado por
+        cima da carne e das batatas, salpique orégaos e volte o \nrefratário para forno por mais 15 minutos;
+
+
+"
+        android:textColor="@color/black"
+        android:translationX="10dp"
+        android:translationY="300dp" />
 
     <ImageView
         android:id="@+id/inicio"
@@ -64,18 +111,5 @@
         android:layout_marginBottom="9dp"
         android:onClick="perfil2"
         app:srcCompat="@drawable/_50689" />
-
-    <TextView
-        android:id="@+id/titulo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/inicio"
-        android:layout_marginBottom="615dp"
-        android:height="50dp"
-        android:text="Página de Receitas"
-        android:textSize="25dp"
-        android:gravity="center"
-        />
-
 
 </RelativeLayout>

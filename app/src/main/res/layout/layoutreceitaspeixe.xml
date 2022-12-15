@@ -1,11 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@android:color/white"
-    tools:context=".receitas">
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tituloreceita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="615dp"
+        android:height="50dp"
+        android:text="Peixe Panado"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/ingredientes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingredientes:\n\n
+        4 filés de tilápia ou outro peixe de sua preferência\n
+        3 dentes de alho amassados\n
+        2 ramos de tomilhos\n
+       2 colheres de sopa de azeite\n
+        Farinha panko\n
+        Sal e pimenta-do-reino a gosto\n
+        Páprica a gosto\n
+        3 colheres de suco de limão siciliano\n
+        Raspas de limão"
+        android:textColor="@color/black"
+        android:translationX="10dp"
+        android:translationY="100dp" />
+
+    <TextView
+        android:id="@+id/preparacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preparação:\n\n
+        Em um recipiente plano, tempere os filés com alho, azeite, folhas de tomilho, páprica, sal, pimenta-do-reino, suco e raspas
+        de limão;\n
+        Misture bem com a mão e vire o filé para pegar tempero
+        dos dois lados;\n
+        Deixe descansar por uns 10 minutos;\n
+        Em uma vasilha, coloque a farinha para empanar;\n
+        Coloque os filés na farinha e empane bem dos dois lados;\n
+        Coloque o peixe na airfryer, de modo em que os filés não fiquem um sobre o outro;\n
+        Aumente a temperatura da frigideira para 200 °C por cerca de 20 minutos ou até que fique dourado, virando os filés na metade do tempo;
+
+"
+        android:textColor="@color/black"
+        android:translationX="10dp"
+        android:translationY="300dp" />
 
     <ImageView
         android:id="@+id/inicio"
@@ -64,18 +113,5 @@
         android:layout_marginBottom="9dp"
         android:onClick="perfil2"
         app:srcCompat="@drawable/_50689" />
-
-    <TextView
-        android:id="@+id/titulo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/inicio"
-        android:layout_marginBottom="615dp"
-        android:height="50dp"
-        android:text="Página de Receitas"
-        android:textSize="25dp"
-        android:gravity="center"
-        />
-
 
 </RelativeLayout>

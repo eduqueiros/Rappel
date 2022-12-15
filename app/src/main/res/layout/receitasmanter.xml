@@ -12,7 +12,7 @@
         android:layout_marginBottom="615dp"
         android:height="50dp"
         android:textColor="@color/black"
-        android:text="Receitas para Engordar"
+        android:text="Receitas para Manter Peso"
         android:textSize="25dp"
         android:gravity="center"
         />
@@ -30,11 +30,11 @@
         android:id="@+id/receitasNome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Frango Panado sem Farinha"
+        android:text="Omelete de Espinafre"
         android:textColor="@color/black"
         android:textSize="20dp"
         android:translationX="90dp"
-        android:onClick="frango"
+        android:onClick="omelete"
         android:translationY="120dp">
 
 
@@ -52,11 +52,11 @@
         android:id="@+id/receitasNome2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Peixe Panado"
+        android:text="Salada Fria de Macarrão"
         android:textColor="@color/black"
         android:textSize="20dp"
         android:translationX="90dp"
-        android:onClick="peixe"
+        android:onClick="salada"
         android:translationY="220dp">
 
     </TextView>
@@ -73,11 +73,11 @@
         android:id="@+id/receitasNome3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Carne Assada com Batata e Queijo"
+        android:text="Espetinho de Frango ao Abacaxi"
         android:textColor="@color/black"
         android:textSize="20dp"
         android:translationX="90dp"
-        android:onClick="carne"
+        android:onClick="espetinho"
         android:translationY="330dp">
 
     </TextView>
@@ -88,14 +88,14 @@
         android:layout_height="80dp"
         android:layout_weight="1"
         android:translationY="430dp"
-        android:onClick="mac1"
+        android:onClick="saladamelancia"
         app:srcCompat="@drawable/bc778d0c20c509a77c0c81c38c2abbe"></ImageView>
 
     <TextView
         android:id="@+id/receitasNome4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Macarrão Cremoso com Legumes"
+        android:text="Salada de Melancia e Bife Grelhado"
         android:textColor="@color/black"
         android:textSize="20dp"
         android:translationX="90dp"
@@ -109,14 +109,14 @@
         android:layout_height="80dp"
         android:layout_weight="1"
         android:translationY="540dp"
-        android:onClick="mac2"
+        android:onClick="frangogrelhado"
         app:srcCompat="@drawable/bc778d0c20c509a77c0c81c38c2abbe"></ImageView>
 
     <TextView
         android:id="@+id/receitasNome5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Macarrão com brócolos e bacon"
+        android:text="Frango grelhado com salada\n de milho"
         android:textColor="@color/black"
         android:textSize="20dp"
         android:translationX="90dp"
@@ -183,7 +183,7 @@
         app:srcCompat="@drawable/_50689" />
 
     <Button
-        android:id="@+id/buttonfrango"
+        android:id="@+id/buttonomelete"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:alpha="0."
@@ -191,28 +191,28 @@
         android:translationY="100dp" />
 
     <Button
-        android:id="@+id/buttonpeixe"
+        android:id="@+id/buttonsalada"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:alpha="0."
         android:text="Button"
         android:translationY="200dp" />
     <Button
-        android:id="@+id/buttoncarne"
+        android:id="@+id/buttonespetinho"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:alpha="0."
         android:text="Button"
         android:translationY="310dp" />
     <Button
-        android:id="@+id/buttonmac1"
+        android:id="@+id/buttonsaladamelancia"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:alpha="0."
         android:text="Button"
         android:translationY="420dp" />
     <Button
-        android:id="@+id/buttonmac2"
+        android:id="@+id/buttonfrangosalada"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:alpha="0."

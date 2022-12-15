@@ -1,11 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@android:color/white"
-    tools:context=".receitas">
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tituloreceita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="615dp"
+        android:height="50dp"
+        android:text="Frango Panado sem Farinha"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/ingredientes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingredientes:\n\n
+        500 g de peito de frango\n
+        Sal e pimenta-do-reino a gosto\n
+        1 ovo\n
+        60 g de queijo parmesão ralado"
+        android:textColor="@color/black"
+        android:translationX="10dp"
+        android:translationY="100dp" />
+
+    <TextView
+        android:id="@+id/preparacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preparação:\n\n
+        Corte o peito de frango em filés e tempere-os com sal e pimenta;\n
+        Coloque o ovo em um prato e bata-o levemente; em outro, disponha o queijo ralado;\n
+        Passe os filés no ovo batido e depois no parmesão;\n
+        Asse-os em forno pré-aquecido a 200 °C por cerca de 30 minutos ou até dourar;
+"
+        android:textColor="@color/black"
+        android:translationX="10dp"
+        android:translationY="300dp" />
 
     <ImageView
         android:id="@+id/inicio"
@@ -64,18 +103,5 @@
         android:layout_marginBottom="9dp"
         android:onClick="perfil2"
         app:srcCompat="@drawable/_50689" />
-
-    <TextView
-        android:id="@+id/titulo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/inicio"
-        android:layout_marginBottom="615dp"
-        android:height="50dp"
-        android:text="Página de Receitas"
-        android:textSize="25dp"
-        android:gravity="center"
-        />
-
 
 </RelativeLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tituloreceita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="615dp"
+        android:height="50dp"
+        android:text="Macarrão cremoso com legumes"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/ingredientes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingredientes:\n\n
+        2 colheres de sopa de azeite\n
+        1/2 cebola picada\n
+        1/2 cenoura picada em cubinhos\n
+        Sal e pimenta-do-reino a gosto\n
+        4 dentes de alho picados\n
+        1 xícara de chá de brócolis cozido\n
+        1/2 xícara de chá de ervilhas\n
+        2 colheres de chá de páprica doce defumada (ou páprica picante)\n
+        1/2 xícara de chá de leite\n
+        2 caixinhas de creme de leite\n
+        1/2 pacote de macarrão já cozido (espaguete ou outro de sua preferência)
+        Parmesão para servir e finalizar
+"
+        android:textColor="@color/black"
+        android:translationX="10dp"
+        android:translationY="100dp" />
+
+    <TextView
+        android:id="@+id/preparacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preparação:\n\n
+        Em uma panela, adicione o azeite, a cebola, a cenoura e refogue até ficarem macios;\n
+        Tempere com sal e pimenta;\n
+        Deixe descansar por uns 10 minutos;\n
+        Acrescente o alho e refogue por mais 1 minuto;\n
+        Coloque os brócolos, as ervilhas, sal, pimenta, páprica e refogue por 1 minuto;\n
+        Diminua o fogo, junte o leite, o creme de leite e misture
+        bem;\n
+        Adicione o sal, a pimenta e misture;\n
+        Assim que levantar fervura, desligue o fogo, adicione o macarrão cozido e misture bem;\n
+        Salpique parmesão ralado por cima e sirva.
+
+"
+        android:textColor="@color/black"
+        android:translationX="10dp"
+        android:translationY="380dp" />
+
+    <ImageView
+        android:id="@+id/inicio"
+        android:layout_width="52dp"
+        android:layout_height="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="7dp"
+        android:onClick="inicio"
+        app:srcCompat="@drawable/imagem1" />
+
+    <ImageView
+        android:id="@+id/pdietas"
+        android:layout_width="42dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="85dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="pdietas"
+        app:srcCompat="@drawable/bc778d0c20c509a77c0c81c38c2abbe" />
+
+    <ImageView
+        android:id="@+id/saude"
+        android:layout_width="40dp"
+        android:layout_height="43dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="saude"
+        app:srcCompat="@drawable/planodesaude" />
+
+    <ImageView
+        android:id="@+id/plano"
+        android:layout_width="51dp"
+        android:layout_height="49dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="98dp"
+        android:layout_marginRight="87dp"
+        android:layout_marginBottom="9dp"
+        android:onClick="plano"
+        app:srcCompat="@drawable/plano" />
+
+    <ImageView
+        android:id="@+id/perfil2"
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginBottom="9dp"
+        android:onClick="perfil2"
+        app:srcCompat="@drawable/_50689" />
+
+</RelativeLayout>

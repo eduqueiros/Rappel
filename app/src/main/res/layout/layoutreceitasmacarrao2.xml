@@ -1,11 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@android:color/white"
-    tools:context=".receitas">
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tituloreceita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="615dp"
+        android:height="50dp"
+        android:text="Macarrão com Brócolos e Bacon"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/ingredientes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingredientes:\n\n
+        500 g de macarrão (tipo penne)\n
+        2 colheres de café de sal\n
+        1 fio de azeite\n
+        300 g de bacon picado\n
+        1 maço de brócolis picado\n
+        50 ml de água\n
+        1 pitada de pimenta\n
+        1 colher de sopa de manteiga\n
+
+"
+        android:textColor="@color/black"
+        android:translationX="10dp"
+        android:translationY="100dp" />
+
+    <TextView
+        android:id="@+id/preparacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preparação:\n\n
+        Leve uma panela ao fogo médio, coloque o macarrão, a água e o sal, e deixe cozinhar até ele ficar al dente.\n
+        Depois, escorra a água, e reserve;\n
+        Leve outra panela ao fogo, adicione o azeite, e frite o bacon;\n
+        Acrescente os brócolos, o sal, a pimenta, coloque água, tampe a panela, e deixe-o cozinhar (ponto al dente) até a água secar;\n
+        Coloque a manteiga, misture, e desligue fogo;\n
+        Transfira o macarrão para um refratário, junte o brócolis e o bacon e sirva!\n
+"
+        android:textColor="@color/black"
+        android:translationX="10dp"
+        android:translationY="300dp" />
 
     <ImageView
         android:id="@+id/inicio"
@@ -64,18 +110,5 @@
         android:layout_marginBottom="9dp"
         android:onClick="perfil2"
         app:srcCompat="@drawable/_50689" />
-
-    <TextView
-        android:id="@+id/titulo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/inicio"
-        android:layout_marginBottom="615dp"
-        android:height="50dp"
-        android:text="Página de Receitas"
-        android:textSize="25dp"
-        android:gravity="center"
-        />
-
 
 </RelativeLayout>
