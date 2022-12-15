@@ -1,5 +1,6 @@
 package ipvc.estg.myapplication
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -79,6 +80,11 @@ class saude : AppCompatActivity() {
         val IMC = weight.toFloat() / (Height_in_metre * Height_in_metre)
 
         return IMC }
+
+    fun voltar(view: View) {
+        val psaude = Intent(this, psaude::class.java)
+        startActivity(psaude)
+    }
 
 
 }
