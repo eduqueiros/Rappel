@@ -12,8 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="615dp"
-        android:height="50dp"
-        android:text="Omelete de Espinafre"
+        android:height="60dp"
+        android:text="Salmão com Molho de Maracujá"
         android:textColor="@color/black"
         android:textSize="25dp"
         android:gravity="center"
@@ -24,12 +24,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ingredientes:\n\n
-        120 g de ovos\n
-        40 g de claras\n
-        ½ maço de espinafre\n
-        1 cebola pequena\n
-        Semente de girassol a gosto\n
-        1 pitada de sal marinho
+        1 maracujá\n
+        ½ cebola\n
+        1 c. de sopa de azeite virgem extra\n
+        Sumo de ½ limão1 ramo de alecrim fresco\n
+        2 lombos de salmão\n
+        Sal e pimenta q.b.\n
 "
         android:textColor="@color/black"
         android:translationX="10dp"
@@ -40,13 +40,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Preparação:\n\n
-        Em uma panela, refogue o espinafre junto com a cebola até que o vegetal fique murcho.\n
-        Em seguida, pique o espinafre em pedaços e misture a semente de girassol. Reserve. Bata os ovos e acrescente o sal. \n
-        Despeje os ovos em uma frigideira pré-aquecida (mexa no ínicio da cocção). Recheie a omelete com o espinafre. Sirva.
+        Corte o maracujá ao meio e coloque a polpa no \nliquidificador durante 30 segundos. Passe o sumo por um\n coador de modo a eliminar as sementes.\n
+        Corte a cebola em pedaços finos e pequenos e reserve.\n
+        Numa panela coloque o azeite e aqueça. Acrescente a cebola e refogue até ficar macia.\n
+        Junte o sumo de maracujá, o sumo do ½ limão. Mexa bem\n e deixe reduzir o molho, mais ou menos 5 minutos;\n
+        Pré-aqueça o forno a 180ºC.\n
+        Pique o alecrim e tempere os lombos de salmão com o alecrim, sal e pimenta a gosto. Reserve.\n
+        Forre um tabuleiro de forno com papel de alumínio,\n coloque os lombos de salmão numa metade do papel e\n cubra-os com a restante metade.\n
+        Coloque o tabuleiro no forno e deixe assar entre 20 a 30 minutos, de acordo com a sua preferência.\n
+        Vá observando de modo a que o salmão fique macio e suculento e não seco.\n
+        Retire os lombos de salmão do forno, coloque num prato e cubra com o molho de maracujá.
 "
         android:textColor="@color/black"
         android:translationX="10dp"
-        android:translationY="300dp" />
+        android:translationY="280dp" />
 
     <ImageView
         android:id="@+id/inicio"

@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="615dp"
         android:height="50dp"
-        android:text="Omelete de Espinafre"
+        android:text="Espetinho de Frango ao Abacaxi"
         android:textColor="@color/black"
         android:textSize="25dp"
         android:gravity="center"
@@ -24,12 +24,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ingredientes:\n\n
-        120 g de ovos\n
-        40 g de claras\n
-        ½ maço de espinafre\n
-        1 cebola pequena\n
-        Semente de girassol a gosto\n
-        1 pitada de sal marinho
+        1 xícara de suco de abacaxi\n
+        1/2 xícara de açúcar mascavo\n
+        1/3 de xícara de molho de soja light\n
+        200 gramas de filé de frango cortados em tiras grossas\n
+        Espetos de madeira\n
 "
         android:textColor="@color/black"
         android:translationX="10dp"
@@ -40,9 +39,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Preparação:\n\n
-        Em uma panela, refogue o espinafre junto com a cebola até que o vegetal fique murcho.\n
-        Em seguida, pique o espinafre em pedaços e misture a semente de girassol. Reserve. Bata os ovos e acrescente o sal. \n
-        Despeje os ovos em uma frigideira pré-aquecida (mexa no ínicio da cocção). Recheie a omelete com o espinafre. Sirva.
+        Em uma panela pequena em fogo médio, misture o suco de abacaxi, o açúcar mascavo e o molho de soja.\n
+        Retire do fogo pouco antes de a mistura começar a ferver.\n
+        Coloque os pedaços de frango em uma tigela média. \n
+        Cubra com o “molho” de abacaxi e deixe marinando.\n
+        Leve à geladeira por pelo menos 30 minutos.\n
+        Pré-aqueça uma grill em temperatura média. Enquanto isso, coloque as fatias de frango nos espetos de madeira.\n
+        Crelhe os espetinhos de frango por cerca de 5 minutos de cada lado ou até perceber que está no ponto.
 "
         android:textColor="@color/black"
         android:translationX="10dp"

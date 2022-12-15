@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="615dp"
         android:height="50dp"
-        android:text="Omelete de Espinafre"
+        android:text="Salada de Melancia e Bife Grelhado"
         android:textColor="@color/black"
         android:textSize="25dp"
         android:gravity="center"
@@ -24,12 +24,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ingredientes:\n\n
-        120 g de ovos\n
-        40 g de claras\n
-        ½ maço de espinafre\n
-        1 cebola pequena\n
-        Semente de girassol a gosto\n
-        1 pitada de sal marinho
+        1 lb de lombo (cerca de 1 polegada de espessura)\n
+        Sal e pimenta kosher\n
+        3 colheres de sopa de limão fresco\n
+        2 colheres de sopa de azeite\n
+        2 colheres de chá de mel\n
+        1/2 cebola roxa pequena, em fatias finas\n
+        1 kg de tomate cereja, cortado pela metade\n
+        1/2 melancia sem sementes pequena\n
+        1 c. hortelã fresca, folhas rasgadas\n
+        1 c. folhas frescas de salsa de folhas planas\n
+        1 rúcula pequena, caules grossos descartados
 "
         android:textColor="@color/black"
         android:translationX="10dp"
@@ -40,13 +45,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Preparação:\n\n
-        Em uma panela, refogue o espinafre junto com a cebola até que o vegetal fique murcho.\n
-        Em seguida, pique o espinafre em pedaços e misture a semente de girassol. Reserve. Bata os ovos e acrescente o sal. \n
-        Despeje os ovos em uma frigideira pré-aquecida (mexa no ínicio da cocção). Recheie a omelete com o espinafre. Sirva.
+       Aqueça a grelha média-alta. Tempere o bife com 1/2\n colher de chá de sal e pimenta e grelhe até o cozimento desejado (seis a oito minutos de cada lado para raro médio). \n
+        Transfira para uma tábua e deixe descansar antes de \ncortar.\n
+        Enquanto isso, em uma tigela, misture o suco de limão, o óleo, o mel e uma pitada de sal e pimenta. Acrescente a cebola\n e o tomate.\n
+        Corte a melancia em triângulos de 1,2 cm de espessura e corte as cascas. Pincele levemente com óleo e depois grelhe \naté ficar ligeiramente carbonizado, um a dois minutos de cada lado. Divida entre quatro pratos.\n
+        Dobre as ervas na mistura de tomate e misture delicadamente com rúcula. Coloque em cima da melancia e sirva com bife.\n
 "
         android:textColor="@color/black"
         android:translationX="10dp"
-        android:translationY="300dp" />
+        android:translationY="340dp" />
 
     <ImageView
         android:id="@+id/inicio"

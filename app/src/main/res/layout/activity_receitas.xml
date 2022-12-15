@@ -7,6 +7,84 @@
     android:background="@android:color/white"
     tools:context=".receitas">
 
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/inicio"
+        android:layout_marginBottom="615dp"
+        android:height="50dp"
+        android:textColor="@color/black"
+        android:text="Página de Receitas"
+        android:textSize="25dp"
+        android:gravity="center"
+        />
+
+    <ImageView
+        android:id="@+id/receitasImagem"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/bc778d0c20c509a77c0c81c38c2abbe"
+        android:translationY="110dp">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/receitasNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Receitas para Engordar"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:translationX="90dp"
+        android:onClick="frango"
+        android:translationY="120dp">
+
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/receitasImagem2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:translationY="210dp"
+        app:srcCompat="@drawable/bc778d0c20c509a77c0c81c38c2abbe"></ImageView>
+
+    <TextView
+        android:id="@+id/receitasNome2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Receitas para Manter"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:translationX="90dp"
+        android:onClick="peixe"
+        android:translationY="220dp">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/receitasImagem3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:translationY="320dp"
+        app:srcCompat="@drawable/bc778d0c20c509a77c0c81c38c2abbe"></ImageView>
+
+    <TextView
+        android:id="@+id/receitasNome3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Receitas para Emagrecer"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:translationX="90dp"
+        android:onClick="carne"
+        android:translationY="330dp">
+
+    </TextView>
+
     <ImageView
         android:id="@+id/inicio"
         android:layout_width="52dp"
@@ -61,6 +139,29 @@
         android:layout_marginBottom="9dp"
         android:onClick="perfil2"
         app:srcCompat="@drawable/_50689" />
+
+    <Button
+        android:id="@+id/buttonomelete"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:alpha="0."
+        android:text="Button"
+        android:translationY="100dp" />
+
+    <Button
+        android:id="@+id/buttonsalada"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:alpha="0."
+        android:text="Button"
+        android:translationY="200dp" />
+    <Button
+        android:id="@+id/buttonespetinho"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:alpha="0."
+        android:text="Button"
+        android:translationY="310dp" />
 
 
 

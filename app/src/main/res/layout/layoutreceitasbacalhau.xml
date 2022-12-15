@@ -12,8 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="615dp"
-        android:height="50dp"
-        android:text="Omelete de Espinafre"
+        android:height="60dp"
+        android:text="Bacalhau com couves"
         android:textColor="@color/black"
         android:textSize="25dp"
         android:gravity="center"
@@ -24,12 +24,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ingredientes:\n\n
-        120 g de ovos\n
-        40 g de claras\n
-        ½ maço de espinafre\n
-        1 cebola pequena\n
-        Semente de girassol a gosto\n
-        1 pitada de sal marinho
+        4 postas de bacalhau\n
+        450g couve lombarda\n
+        450g couve branca\n
+        450g couve portuguesa\n
+        1 c. sopa azeite\n
+        2 dentes de alho\n
+        Sal e pimenta q.b.\n
 "
         android:textColor="@color/black"
         android:translationX="10dp"
@@ -40,13 +41,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Preparação:\n\n
-        Em uma panela, refogue o espinafre junto com a cebola até que o vegetal fique murcho.\n
-        Em seguida, pique o espinafre em pedaços e misture a semente de girassol. Reserve. Bata os ovos e acrescente o sal. \n
-        Despeje os ovos em uma frigideira pré-aquecida (mexa no ínicio da cocção). Recheie a omelete com o espinafre. Sirva.
+        Comece por cozinhar o bacalhau, previamente demolhado,\n a vapor.\n
+        Corte o talo da couve lombarda e separe as folhas. Repita\n o processo para a couve branca e a couve portuguesa\n
+        Adicione as folhas de couve lombarda, branca e\n portuguesa ao tacho do bacalhau para que cozam\n ligeiramente a vapor e percam a firmeza.\n
+        Numa frigideira, coloque uma colher de sopa de azeite e\n dois dentes de alho laminados. Retire as couves do tacho e salteie na frigideira de modo a alourar a couve. Tempere\n com sal e pimenta e envolva.\n
+        Sirva o bacalhau com as couves.\n
 "
         android:textColor="@color/black"
         android:translationX="10dp"
-        android:translationY="300dp" />
+        android:translationY="340dp" />
 
     <ImageView
         android:id="@+id/inicio"

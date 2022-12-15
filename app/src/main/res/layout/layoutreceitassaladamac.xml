@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="615dp"
         android:height="50dp"
-        android:text="Omelete de Espinafre"
+        android:text="Salada Fria de Macarrão"
         android:textColor="@color/black"
         android:textSize="25dp"
         android:gravity="center"
@@ -24,12 +24,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ingredientes:\n\n
-        120 g de ovos\n
-        40 g de claras\n
-        ½ maço de espinafre\n
-        1 cebola pequena\n
-        Semente de girassol a gosto\n
-        1 pitada de sal marinho
+        1 pacote de macarrão integral tipo pene\n
+        3 tomates descascados, sem sementes e cortados em cubos\n
+        3 talos de aipo picados\n
+        1 lata de atum ralado\n
+        1 e 1/2 xícaras de maionese light\n
+        1 colher de sopa de molho italiano para salada\n
+        1 colher de sopa de açúcar refinado\n
+        1 pitada de pimenta preta
 "
         android:textColor="@color/black"
         android:translationX="10dp"
@@ -40,9 +42,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Preparação:\n\n
-        Em uma panela, refogue o espinafre junto com a cebola até que o vegetal fique murcho.\n
-        Em seguida, pique o espinafre em pedaços e misture a semente de girassol. Reserve. Bata os ovos e acrescente o sal. \n
-        Despeje os ovos em uma frigideira pré-aquecida (mexa no ínicio da cocção). Recheie a omelete com o espinafre. Sirva.
+        Em uma panela grande com água fervente e sal, cozinhe o macarrão até ficar com a consistência al dente.\n
+        Depois, lave em água fria e escorra.\n
+        Em uma tigela grande, misture o macarrão, o tomate, o aipo e o atum.\n
+        Prepare o molho por mexendo a maionese, o molho para salada, o açúcar e a pimenta.\n
+        Adicione o molho na salada de macarrão, misture e leve à geladeira por 1 hora antes de servir.
 "
         android:textColor="@color/black"
         android:translationX="10dp"

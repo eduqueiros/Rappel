@@ -12,8 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="615dp"
-        android:height="50dp"
-        android:text="Omelete de Espinafre"
+        android:height="60dp"
+        android:text="Salada de atum"
         android:textColor="@color/black"
         android:textSize="25dp"
         android:gravity="center"
@@ -24,12 +24,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ingredientes:\n\n
-        120 g de ovos\n
-        40 g de claras\n
-        ½ maço de espinafre\n
-        1 cebola pequena\n
-        Semente de girassol a gosto\n
-        1 pitada de sal marinho
+        2 latas de filetes de atum em azeite\n
+        1 pimento verde\n
+        1 pimento vermelho\n
+        1 cebola média\n
+        2 colheres de sopa de azeite virgem extra\n
+        1 colher de sopa de vinagre de vinho branco\n
 "
         android:textColor="@color/black"
         android:translationX="10dp"
@@ -40,13 +40,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Preparação:\n\n
-        Em uma panela, refogue o espinafre junto com a cebola até que o vegetal fique murcho.\n
-        Em seguida, pique o espinafre em pedaços e misture a semente de girassol. Reserve. Bata os ovos e acrescente o sal. \n
-        Despeje os ovos em uma frigideira pré-aquecida (mexa no ínicio da cocção). Recheie a omelete com o espinafre. Sirva.
+        Pique a cebola e os pimentos, e coloque numa taça.\n
+        Escorra o azeite das latas de atum, desfie e adicione aos legumes da taça. Tempere com o azeite e o vinagre e está\n pronto a servir.\n
 "
         android:textColor="@color/black"
         android:translationX="10dp"
-        android:translationY="300dp" />
+        android:translationY="340dp" />
 
     <ImageView
         android:id="@+id/inicio"

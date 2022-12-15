@@ -12,8 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="615dp"
-        android:height="50dp"
-        android:text="Omelete de Espinafre"
+        android:height="60dp"
+        android:text="Frango Salteado"
         android:textColor="@color/black"
         android:textSize="25dp"
         android:gravity="center"
@@ -24,12 +24,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ingredientes:\n\n
-        120 g de ovos\n
-        40 g de claras\n
-        ½ maço de espinafre\n
-        1 cebola pequena\n
-        Semente de girassol a gosto\n
-        1 pitada de sal marinho
+        1 peito de frango em tiras\n
+        ½ lata de cogumelos\n
+        80g de courgette\n
+        ½ saqueta de sopa de tomate\n
+        1 dente de alho\n
+        1 colher de chá de azeite\n
+        Sal e pimenta\n
 "
         android:textColor="@color/black"
         android:translationX="10dp"
@@ -40,13 +41,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Preparação:\n\n
-        Em uma panela, refogue o espinafre junto com a cebola até que o vegetal fique murcho.\n
-        Em seguida, pique o espinafre em pedaços e misture a semente de girassol. Reserve. Bata os ovos e acrescente o sal. \n
-        Despeje os ovos em uma frigideira pré-aquecida (mexa no ínicio da cocção). Recheie a omelete com o espinafre. Sirva.
+        Faça um estufado com o azeite e o alho, e junte a sopa de tomate\n
+        Adicione a courgette e os cogumelos, envolvendo.\n
+        Por fim adicione o frango, tempere com sal e pimenta e deixe cozinhar.
 "
         android:textColor="@color/black"
         android:translationX="10dp"
-        android:translationY="300dp" />
+        android:translationY="340dp" />
 
     <ImageView
         android:id="@+id/inicio"

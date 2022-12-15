@@ -12,8 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="615dp"
-        android:height="50dp"
-        android:text="Omelete de Espinafre"
+        android:height="60dp"
+        android:text="Frango Grelhado com Salada de Milho"
         android:textColor="@color/black"
         android:textSize="25dp"
         android:gravity="center"
@@ -24,12 +24,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ingredientes:\n\n
-        120 g de ovos\n
-        40 g de claras\n
-        ½ maço de espinafre\n
-        1 cebola pequena\n
-        Semente de girassol a gosto\n
-        1 pitada de sal marinho
+        4 metades de peito de frango desossado e sem pele de 6 onças\n
+        Sal e pimenta\n
+        2 limas cortadas ao meio\n
+        4 espigas de milho, sem casca\n
+        1/4 c. coentro picado\n
+        2 colheres de sopa. azeitonas verdes picadas\n
+        1 oz. Queijo Manchego ralado\n
+        1 1/2 colher de chá. azeite\n
+        1 colher de chá. páprica defumada\n
 "
         android:textColor="@color/black"
         android:translationX="10dp"
@@ -40,13 +43,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Preparação:\n\n
-        Em uma panela, refogue o espinafre junto com a cebola até que o vegetal fique murcho.\n
-        Em seguida, pique o espinafre em pedaços e misture a semente de girassol. Reserve. Bata os ovos e acrescente o sal. \n
-        Despeje os ovos em uma frigideira pré-aquecida (mexa no ínicio da cocção). Recheie a omelete com o espinafre. Sirva.
+        Tempere as metades do peito de frango desossadas e \nsem pele com sal e pimenta e grelhe em média-alta para\n cozinhar, 5 a 6 minutos de
+	cada lado.\n
+        Enquanto isso, grelhe o limão, corte os lados e o milho\n até ficar carbonizado, por 6 a 8 minutos.\n
+        Corte o milho da espiga e misture na tigela com suco de 2 metades de limão, depois coentro picado, azeitonas verdes picadas,
+	queijo Manchego ralado e pitada de sal e pimenta.\n
+       Sirva o frango com milho e as demais metades de limão e regue com uma mistura de azeite e páprica defumada.\n
 "
         android:textColor="@color/black"
         android:translationX="10dp"
-        android:translationY="300dp" />
+        android:translationY="340dp" />
 
     <ImageView
         android:id="@+id/inicio"

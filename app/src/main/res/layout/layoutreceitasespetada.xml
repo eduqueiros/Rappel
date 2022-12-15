@@ -12,8 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="615dp"
-        android:height="50dp"
-        android:text="Omelete de Espinafre"
+        android:height="60dp"
+        android:text="Espetada de Frango à Paris"
         android:textColor="@color/black"
         android:textSize="25dp"
         android:gravity="center"
@@ -24,12 +24,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ingredientes:\n\n
-        120 g de ovos\n
-        40 g de claras\n
-        ½ maço de espinafre\n
-        1 cebola pequena\n
-        Semente de girassol a gosto\n
-        1 pitada de sal marinho
+        3 peitos de frango sem pele cortados em pedaços\n
+        Sal e pimenta preta moída no momento\n
+        \n
+        Para a marinada:\n
+        3 colheres de sopa de molho de mostarda\n
+        1 colher de sopa de azeite\n
+        1/2 colher de chá de Tabasco\n
+        1 dente de alho esmagado\n
+        1/2 colher de chá de tomilho seco\n
+        3 folhas de manjericão\n
+        Folhas de manjericão para guarnecer
 "
         android:textColor="@color/black"
         android:translationX="10dp"
@@ -40,13 +45,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Preparação:\n\n
-        Em uma panela, refogue o espinafre junto com a cebola até que o vegetal fique murcho.\n
-        Em seguida, pique o espinafre em pedaços e misture a semente de girassol. Reserve. Bata os ovos e acrescente o sal. \n
-        Despeje os ovos em uma frigideira pré-aquecida (mexa no ínicio da cocção). Recheie a omelete com o espinafre. Sirva.
+        Misture a mostarda, o azeite, o tabasco, o tomilho, o alho\n e o manjericão numa tigela funda não metálica, larga o\n suficiente para conter 6 espetos.\n
+        Tempere os pedaços de frango com um pouco de sal e pimenta, e a seguir coloque-os nos espetos. Coloque os\n espetos na marinada e
+	volte-os de maneira a envolvê-los.\n
+        Tape e coloque no frigorífico por 1 hora, mexendo de vez\n em quando. Pré-aqueça a grelha no máximo e pincele o\n tabuleiro com azeite.\n
+       Disponha as espetadas no tabuleiro, pincele com metade da marinada e grelhe durante cerca de 6 minutos. Volte-as, pincele-as com
+	o resto da marinada e grelhe por mais 2 a 3 minutos, até o frango estar tenro e grelhado.\n
 "
         android:textColor="@color/black"
         android:translationX="10dp"
-        android:translationY="300dp" />
+        android:translationY="340dp" />
 
     <ImageView
         android:id="@+id/inicio"
