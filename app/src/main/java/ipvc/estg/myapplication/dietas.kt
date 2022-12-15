@@ -14,4 +14,9 @@ class dietas : AppCompatActivity() {
         val perfil = Intent(this, perfil::class.java)
         startActivity(perfil)
     }
+    fun saude(view: View){
+        val psaude = Intent(this, psaude::class.java)
+        startActivity(psaude)
+    }
+
 }

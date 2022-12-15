@@ -15,4 +15,12 @@ class psaude : AppCompatActivity() {
         val saude = Intent(this, saude::class.java)
         startActivity(saude)
     }
+    fun perfil2(view: View) {
+        val perfil = Intent(this, perfil::class.java)
+        startActivity(perfil)
+    }
+    fun pdietas(view: View) {
+        val dietas = Intent(this, dietas::class.java)
+        startActivity(dietas)
+    }
 }
