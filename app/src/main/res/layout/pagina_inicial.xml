@@ -14,7 +14,6 @@
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
         android:layout_marginBottom="7dp"
-        android:onClick="inicial"
         app:srcCompat="@drawable/imagem1" />
 
     <ImageView

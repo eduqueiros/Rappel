@@ -14,4 +14,8 @@ class dietas : AppCompatActivity() {
         val perfil = Intent(this, perfil::class.java)
         startActivity(perfil)
     }
+    fun volta(view: View){
+        val pagina_inicial = Intent(this, pagina_inicial::class.java)
+        startActivity(pagina_inicial)
+    }
 }
