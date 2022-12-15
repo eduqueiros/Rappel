@@ -14,33 +14,31 @@
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
         android:layout_marginBottom="7dp"
-        android:onClick="inicio"
+        android:onClick="inicial"
         app:srcCompat="@drawable/imagem1" />
 
     <ImageView
-        android:id="@+id/pdietas"
+        android:id="@+id/imageView4"
         android:layout_width="42dp"
         android:layout_height="40dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_marginRight="85dp"
         android:layout_marginBottom="10dp"
-        android:onClick="pdietas"
         app:srcCompat="@drawable/bc778d0c20c509a77c0c81c38c2abbe" />
 
     <ImageView
-        android:id="@+id/saude"
+        android:id="@+id/imageView5"
         android:layout_width="40dp"
         android:layout_height="43dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="15dp"
         android:layout_marginBottom="10dp"
-        android:onClick="saude"
         app:srcCompat="@drawable/planodesaude" />
 
     <ImageView
-        android:id="@+id/plano"
+        android:id="@+id/imageView6"
         android:layout_width="51dp"
         android:layout_height="49dp"
         android:layout_alignParentLeft="true"
@@ -48,7 +46,6 @@
         android:layout_marginLeft="98dp"
         android:layout_marginRight="87dp"
         android:layout_marginBottom="9dp"
-        android:onClick="plano"
         app:srcCompat="@drawable/plano" />
 
     <ImageView
@@ -65,17 +62,6 @@
         android:onClick="perfil2"
         app:srcCompat="@drawable/_50689" />
 
-    <TextView
-        android:id="@+id/titulo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/inicio"
-        android:layout_marginBottom="615dp"
-        android:height="50dp"
-        android:text="Página de Receitas"
-        android:textSize="25dp"
-        android:gravity="center"
-        />
 
 
 </RelativeLayout>
