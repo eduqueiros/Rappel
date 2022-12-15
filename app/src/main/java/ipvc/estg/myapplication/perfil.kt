@@ -56,12 +56,13 @@ class perfil : AppCompatActivity() {
                 true
             }
             R.id.metas->{
-                Toast.makeText( this,"alterar", Toast.LENGTH_SHORT).show()
+                saude()
                 true
             }
             else -> super.onOptionsItemSelected(item)
         }
     }
+
 
     fun receitas(view: View){
         val dietas = Intent(this, dietas::class.java)
@@ -69,8 +70,8 @@ class perfil : AppCompatActivity() {
     }
 
     fun saude(view: View){
-        val saude = Intent(this, saude::class.java)
-        startActivity(saude)
+        val psaude = Intent(this, psaude::class.java)
+        startActivity(psaude)
     }
 
     fun inicio(view: View){
