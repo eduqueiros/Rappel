@@ -80,7 +80,4 @@ class calculadoraimc : AppCompatActivity() {
 
         return IMC }
 
-
-
-}
 }
