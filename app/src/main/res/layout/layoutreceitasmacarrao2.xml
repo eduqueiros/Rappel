@@ -110,5 +110,13 @@
         android:layout_marginBottom="9dp"
         android:onClick="perfil2"
         app:srcCompat="@drawable/_50689" />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="?attr/homeAsUpIndicator"
+        android:onClick="volta" >
+
+    </ImageView>
 
 </RelativeLayout>

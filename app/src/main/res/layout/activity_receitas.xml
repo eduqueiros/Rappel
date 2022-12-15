@@ -37,7 +37,6 @@
         android:textColor="@color/black"
         android:textSize="20dp"
         android:translationX="90dp"
-        android:onClick="frango"
         android:translationY="120dp">
 
 
@@ -59,7 +58,6 @@
         android:textColor="@color/black"
         android:textSize="20dp"
         android:translationX="90dp"
-        android:onClick="peixe"
         android:translationY="220dp">
 
     </TextView>
@@ -80,7 +78,6 @@
         android:textColor="@color/black"
         android:textSize="20dp"
         android:translationX="90dp"
-        android:onClick="carne"
         android:translationY="330dp">
 
     </TextView>
@@ -141,27 +138,37 @@
         app:srcCompat="@drawable/_50689" />
 
     <Button
-        android:id="@+id/buttonomelete"
+        android:id="@+id/buttonengordar"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:alpha="0."
         android:text="Button"
+        android:onClick="engordar"
         android:translationY="100dp" />
 
     <Button
-        android:id="@+id/buttonsalada"
+        android:id="@+id/buttonmanter"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:alpha="0."
         android:text="Button"
+        android:onClick="manter"
         android:translationY="200dp" />
     <Button
-        android:id="@+id/buttonespetinho"
+        android:id="@+id/buttonemagrecer"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:alpha="0."
+        android:onClick="emagrecer"
         android:text="Button"
         android:translationY="310dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="?attr/homeAsUpIndicator"
+        android:onClick="volta" />
 
 
 

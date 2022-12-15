@@ -188,6 +188,7 @@
         android:layout_height="100dp"
         android:alpha="0."
         android:text="Button"
+        android:onClick="frangopanado"
         android:translationY="100dp" />
 
     <Button
@@ -196,6 +197,7 @@
         android:layout_height="100dp"
         android:alpha="0."
         android:text="Button"
+        android:onClick="peixepanado"
         android:translationY="200dp" />
     <Button
         android:id="@+id/buttoncarne"
@@ -203,6 +205,7 @@
         android:layout_height="100dp"
         android:alpha="0."
         android:text="Button"
+        android:onClick="carneassada"
         android:translationY="310dp" />
     <Button
         android:id="@+id/buttonmac1"
@@ -210,6 +213,7 @@
         android:layout_height="100dp"
         android:alpha="0."
         android:text="Button"
+        android:onClick="mac1"
         android:translationY="420dp" />
     <Button
         android:id="@+id/buttonmac2"
@@ -217,7 +221,17 @@
         android:layout_height="100dp"
         android:alpha="0."
         android:text="Button"
+        android:onClick="mac2"
         android:translationY="530dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="?attr/homeAsUpIndicator"
+        android:onClick="volta" >
+
+    </ImageView>
 
 
 </RelativeLayout>
