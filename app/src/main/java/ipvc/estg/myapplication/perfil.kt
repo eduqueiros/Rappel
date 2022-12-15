@@ -29,38 +29,12 @@ class perfil : AppCompatActivity() {
 
             findViewById<TextView>(R.id.textView).text = displayName
 
+            findViewById<TextView>(R.id.email1).text = email
+
             findViewById<Button>(R.id.signOutBtn).setOnClickListener {
                 auth.signOut()
                 startActivity(Intent(this , MainActivity::class.java))
             }
-    }
-
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        val inflater: MenuInflater =menuInflater
-        inflater.inflate(R.menu.menu, menu)
-        return true
-    }
-
-    override fun onOptionsItemSelected(item: MenuItem): Boolean{
-        return when (item.itemId){
-            R.id.editar ->{
-                Toast.makeText( this,"cidadesPortugal", Toast.LENGTH_SHORT).show()
-                true
-            }
-            R.id.contactos ->{
-                Toast.makeText( this,"rappel@ipvc.pt", Toast.LENGTH_SHORT).show()
-                true
-            }
-            R.id.lembretes ->{
-                Toast.makeText( this,"getCountryFromAveiro", Toast.LENGTH_SHORT).show()
-                true
-            }
-            R.id.metas->{
-                saude()
-                true
-            }
-            else -> super.onOptionsItemSelected(item)
-        }
     }
 
 
