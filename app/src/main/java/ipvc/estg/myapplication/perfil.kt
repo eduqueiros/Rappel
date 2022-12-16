@@ -48,9 +48,9 @@ class perfil : AppCompatActivity() {
         startActivity(psaude)
     }
 
-    fun inicio(view: View){
-        val dietas = Intent(this, dietas::class.java)
-        startActivity(dietas)
+    fun inicial(view: View) {
+        val pagina_inicial = Intent(this, pagina_inicial::class.java)
+        startActivity(pagina_inicial)
     }
 
     fun pdietas(view: View){

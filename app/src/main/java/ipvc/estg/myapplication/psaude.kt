@@ -27,4 +27,8 @@ class psaude : AppCompatActivity() {
         val contadorpassos = Intent(this, contadorpassos::class.java)
         startActivity(contadorpassos)
     }
+    fun inicial(view: View) {
+        val pagina_inicial = Intent(this, pagina_inicial::class.java)
+        startActivity(pagina_inicial)
+    }
 }

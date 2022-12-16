@@ -18,6 +18,10 @@ class dietas : AppCompatActivity() {
         val psaude = Intent(this, psaude::class.java)
         startActivity(psaude)
     }
+    fun inicial(view: View) {
+        val pagina_inicial = Intent(this, pagina_inicial::class.java)
+        startActivity(pagina_inicial)
+    }
 
     fun volta(view: View){
         val pagina_inicial = Intent(this, pagina_inicial::class.java)
