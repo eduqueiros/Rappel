@@ -49,6 +49,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:backgroundTint="#FF9800"
+        android:onClick="frente"
         android:marqueeRepeatLimit="marquee_forever"
         android:text="ganhar peso" />
 

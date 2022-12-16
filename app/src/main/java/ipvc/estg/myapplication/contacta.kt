@@ -5,12 +5,12 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class objetivodieta : AppCompatActivity() {
+class contacta : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.objetivodieta)
+        setContentView(R.layout.contacta)
     }
-    fun frente(view: View){
+    fun volta(view: View){
         val pagina_inicial = Intent(this, pagina_inicial::class.java)
         startActivity(pagina_inicial)
     }
