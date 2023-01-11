@@ -17,8 +17,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun criarperfil(view: View){
-        val genero = Intent(this, genero::class.java)
-        startActivity(genero)
+        val criarperfil = Intent(this, criarperfil::class.java)
+        startActivity(criarperfil)
     }
     fun sessao(view: View){
         val logingoogle = Intent(this, logingoogle::class.java)
