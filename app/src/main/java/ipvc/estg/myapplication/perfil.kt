@@ -12,46 +12,35 @@ import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.database.DatabaseReference
-import com.google.firebase.database.FirebaseDatabase
+import com.google.firebase.database.*
 import ipvc.estg.myapplication.databinding.ActivityPerfilBinding
 import kotlinx.android.synthetic.main.activity_criarperfil.*
+import kotlin.math.log
 
 class perfil : AppCompatActivity() {
 
     private lateinit var auth : FirebaseAuth
-    private lateinit var database : DatabaseReference
-    private lateinit var binding : ActivityPerfilBinding
 
         override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_perfil)
             supportActionBar!!.title = "Perfil"
 
-            database = FirebaseDatabase.getInstance().getReference().child("Users")
-            database.child(nome).get().addOnSuccessListener {
+            val database = FirebaseDatabase.getInstance()
+            val myRef = database.getReference("Users")
 
-                if (it.exists()){
-
-                    val nome = it.child("nome").value
-                    val age = it.child("idade").value
-                    Toast.makeText(this,"Successfuly Read",Toast.LENGTH_SHORT).show()
-                    binding.textView.text = nome.toString()
-                    binding.email1.text = age.toString()
-
-                }else{
-
-                    Toast.makeText(this,"User Doesn't Exist",Toast.LENGTH_SHORT).show()
-
+            myRef.addValueEventListener(object : ValueEventListener{
+                override fun onDataChange(datasnapshot: DataSnapshot) {
+                    val value = datasnapshot.getValue(String::class.java)
 
                 }
 
-            }.addOnFailureListener{
+                override fun onCancelled(error: DatabaseError) {
+                    TODO("Not yet implemented")
+                }
+            })
 
-                Toast.makeText(this,"Failed",Toast.LENGTH_SHORT).show()
 
-
-            }
 
             findViewById<Button>(R.id.signOutBtn).setOnClickListener {
                 auth.signOut()
