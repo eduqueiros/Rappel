@@ -4,11 +4,16 @@ plugins {
     id 'com.google.gms.google-services'
     id 'kotlin-android'
     id 'kotlin-android-extensions'
+    id 'kotlin-kapt'
 }
 
 android {
     namespace 'ipvc.estg.myapplication'
     compileSdk 32
+
+    packagingOptions {
+        exclude 'META-INF/atomicfu.kotlin_module'
+    }
 
     defaultConfig {
         applicationId "ipvc.estg.myapplication"
@@ -55,4 +60,5 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
 }

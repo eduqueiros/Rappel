@@ -13,33 +13,19 @@ import android.widget.TextView
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
-import ipvc.estg.myapplication.databinding.ActivityPerfilBinding
 import kotlinx.android.synthetic.main.activity_criarperfil.*
+import kotlinx.android.synthetic.main.activity_perfil.*
 import kotlin.math.log
 
 class perfil : AppCompatActivity() {
 
     private lateinit var auth : FirebaseAuth
 
+
         override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_perfil)
             supportActionBar!!.title = "Perfil"
-
-            val database = FirebaseDatabase.getInstance()
-            val myRef = database.getReference("Users")
-
-            myRef.addValueEventListener(object : ValueEventListener{
-                override fun onDataChange(datasnapshot: DataSnapshot) {
-                    val value = datasnapshot.getValue(String::class.java)
-
-                }
-
-                override fun onCancelled(error: DatabaseError) {
-                    TODO("Not yet implemented")
-                }
-            })
-
 
 
             findViewById<Button>(R.id.signOutBtn).setOnClickListener {

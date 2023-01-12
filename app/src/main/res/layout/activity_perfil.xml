@@ -98,6 +98,10 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="250dp"
+        android:layout_toRightOf="@+id/textnome"
+        android:text="Antonio"
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/signOutBtn"
@@ -105,14 +109,17 @@
         app:layout_constraintHorizontal_bias="0.049"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        android:layout_marginLeft="130dp"
-        android:layout_marginTop="260dp"
-        />
+        app:layout_constraintVertical_bias="1.0" />
+
     <TextView
-        android:id="@+id/email1"
+        android:id="@+id/textViewgenero"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/textgenero"
+        android:text="Masculino"
+        android:layout_below="@+id/textView"
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/signOutBtn"
@@ -120,11 +127,79 @@
         app:layout_constraintHorizontal_bias="0.049"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        android:layout_marginLeft="130dp"
-        android:layout_marginTop="360dp"
-        />
+        app:layout_constraintVertical_bias="1.0" />
 
+    <TextView
+        android:id="@+id/textViewage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="72dp"
+        android:layout_toRightOf="@+id/textage"
+        android:text="22"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/signOutBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textViewaltura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="120dp"
+        android:layout_toRightOf="@+id/textaltura"
+        android:text="180"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/signOutBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textViewpeso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="167dp"
+        android:layout_toRightOf="@+id/textpeso"
+        android:text="67"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/signOutBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textViewpesoideal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="217dp"
+        android:layout_toRightOf="@+id/textpesoideal"
+        android:text="73"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/signOutBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
         android:id="@+id/imageView9"
@@ -134,23 +209,83 @@
         android:layout_marginTop="67dp"
         app:srcCompat="@drawable/ic_baseline_person_outline_24" />
 
-    <ImageView
-        android:id="@+id/imageView10"
-        android:layout_width="58dp"
-        android:layout_height="45dp"
+    <TextView
+        android:id="@+id/textnome"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_marginTop="250dp"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="45dp"
-        app:srcCompat="@drawable/ic_baseline_person_outline_24" />
+        android:layout_marginTop="250dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:text="Nome:" />
 
-    <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="45dp"
-        android:layout_height="44dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="350dp"
-        app:srcCompat="@drawable/ic_baseline_email_24" />
+    <TextView
+        android:id="@+id/textgenero"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textnome"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:text="Genero:" />
+
+    <TextView
+        android:id="@+id/textage"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textgenero"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:text="Idade:" />
+
+    <TextView
+        android:id="@+id/textaltura"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textage"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:text="Altura:" />
+
+    <TextView
+        android:id="@+id/textpeso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textaltura"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="20dp"
+        android:text="Peso Atual:"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textpesoideal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textpeso"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="20dp"
+        android:text="Meta Peso:"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
 
     />
 

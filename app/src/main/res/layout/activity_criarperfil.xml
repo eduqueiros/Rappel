@@ -44,19 +44,21 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
-        android:id="@+id/Name"
-            android:layout_margin="10dp"
-        android:layout_width="360dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="36dp"
-        android:background="@drawable/input"
-        android:hint="Nome"
+            android:id="@+id/Name"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/textView2"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/input"
+            android:hint="Nome"
+            android:paddingLeft="20dp"
             android:textColor="@color/black"
             android:textColorHint="@color/black"
-        android:paddingLeft="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-            android:layout_below="@+id/textView2" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/genero"
@@ -152,38 +154,36 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
-        <EditText
-            android:id="@+id/username"
-            android:layout_width="360dp"
-            android:layout_height="50dp"
-            android:layout_below="@+id/pobjetivo"
-            android:layout_margin="10dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginBottom="10dp"
-            android:background="@drawable/input"
-            android:hint="username"
-            android:paddingLeft="20dp"
-            android:textColor="@color/black"
-            android:textColorHint="@color/black"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
 
         <Button
             android:id="@+id/save"
-            android:layout_width="254dp"
+            android:layout_width="123dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginLeft="75dp"
-            android:layout_marginTop="672dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="650dp"
             android:backgroundTint="@color/teal_200"
-            android:text="Escolher Dieta"
+            android:onClick="save"
+            android:text="Guardar"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.49"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:onClick="save"/>
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/edieta"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="650dp"
+            android:backgroundTint="@color/teal_200"
+            android:onClick="edieta"
+            android:text="Escolher dieta"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
     </RelativeLayout>
 </ScrollView>
