@@ -75,7 +75,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="40dp"
-        android:backgroundTint="#2CD3BE"
+        android:backgroundTint="#FF7F00"
+        android:textColor="@color/white"
         android:text="Calcular" />
 
     <TextView
@@ -118,7 +119,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
-        android:backgroundTint="#EAA268"
+        android:backgroundTint="#FF7F00"
+        android:textColor="@color/white"
         android:text="Calcular novamente"
         android:visibility="gone" />
 
@@ -130,7 +132,8 @@
         android:layout_marginTop="250dp"
         android:layout_marginLeft="300dp"
         android:onClick="voltar"
-        android:backgroundTint="#2CD3BE"/>
+        android:backgroundTint="#FF7F00"
+        android:textColor="@color/white"/>
     />
 
 

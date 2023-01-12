@@ -43,6 +43,8 @@
         android:layout_height="wrap_content"
         android:text="voltar"
         android:onClick="voltar2"
+        android:backgroundTint="#FF7F00"
+        android:textColor="@color/white"
         tools:layout_editor_absoluteX="301dp"
         tools:layout_editor_absoluteY="667dp" />
 
