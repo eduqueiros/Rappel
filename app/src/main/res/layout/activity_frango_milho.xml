@@ -9,8 +9,9 @@
 
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/titulo"
+        android:layout_width="361dp"
+        android:layout_height="81dp"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
         android:layout_gravity="center_horizontal"
@@ -19,7 +20,7 @@
         android:layout_marginTop="13dp"
         android:layout_marginEnd="50dp"
         android:layout_marginBottom="50dp"
-        android:text="Salada Fria de Macarrão"
+        android:text="Frango Grelhado com salada de milho"
         android:textColor="@color/black"
         android:textSize="25sp"
         android:textStyle="bold" />
@@ -28,7 +29,7 @@
         android:id="@+id/preparacao2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
         android:layout_marginTop="55dp"
         android:text="Preparação:\n\n
         Em uma panela grande com água fervente e sal, cozinhe o macarrão até ficar com a consistência al dente.\n
@@ -45,7 +46,9 @@
         android:layout_above="@+id/preparacao2"
         android:layout_alignParentLeft="true"
         android:layout_centerInParent="true"
+        android:layout_marginLeft="-1dp"
         android:layout_marginTop="55dp"
+        android:layout_marginBottom="16dp"
         android:text="Ingredientes:\n\n
         1 pacote de macarrão integral tipo pene\n
         3 tomates descascados, sem sementes e cortados em cubos\n

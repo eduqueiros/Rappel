@@ -93,11 +93,11 @@
         android:id="@+id/frango"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/salada"
         android:layout_centerInParent="true"
         android:layout_marginBottom="52dp"
-        android:layout_below="@+id/salada"
         android:onClick="frango"
-        android:text="Frango Grelhado com Salada de Milho"/>
+        android:text="Frango Grelhado com Salada de Milho" />
 
     <Button
         android:id="@+id/espinafre"

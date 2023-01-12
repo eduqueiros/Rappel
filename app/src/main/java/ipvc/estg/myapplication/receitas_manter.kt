@@ -20,4 +20,9 @@ class receitas_manter : AppCompatActivity() {
         val salada_macarrao = Intent(this, salada_macarrao::class.java)
         startActivity(salada_macarrao)
     }
+
+    fun frango(view: View){
+        val frango_milho = Intent(this, frango_milho::class.java)
+        startActivity(frango_milho)
+    }
 }
