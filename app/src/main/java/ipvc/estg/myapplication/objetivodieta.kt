@@ -19,4 +19,9 @@ class objetivodieta : AppCompatActivity() {
         val pagina_emagrecer = Intent(this, pagina_emagrecer::class.java)
         startActivity(pagina_emagrecer)
     }
+
+    fun manter(view: View){
+        val pagina_manter = Intent(this, pagina_manter::class.java)
+        startActivity(pagina_manter)
+    }
 }
