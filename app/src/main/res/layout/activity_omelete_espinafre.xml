@@ -1,9 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".omelete_espinafre">
+    android:background="@color/white"
+    tools:context=".perfil">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:id="@+id/inicio"
+        android:layout_width="52dp"
+        android:layout_height="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="7dp"
+        android:onClick="inicial"
+        app:srcCompat="@drawable/imagem1" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="42dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="85dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/_bc778d0c20c509a77c0c81c38c2abbe" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="40dp"
+        android:layout_height="43dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/planodesaude" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="51dp"
+        android:layout_height="49dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="98dp"
+        android:layout_marginRight="87dp"
+        android:layout_marginBottom="9dp"
+        android:onClick="pdietas"
+        app:srcCompat="@drawable/plano" />
+
+    <ImageView
+        android:id="@+id/perfil2"
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginBottom="9dp"
+        android:onClick="perfil2"
+        app:srcCompat="@drawable/_250689" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="Omelete de Espinafre"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/planodieta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="08:30 - Pequeno Almoço\n1 Caneca de Café s/ açúcares adicionados (300ml)\n1Unidade de Pão de Centeio (60g)\n1 unidade de Ovo, galinha, cozido ou mexido (50g)\n1 fatia de Marmelada\n1 Unidade de Banana (150g)\n1 copo de Sumo de Laranja 100% natural (200ml)\n\n11:00 - Lanche da Manhã\n5 unidades de Bolacha de arroz, simples\n20 Gramas de Manteiga de Frutos gordos\n1 Unidade de Banana (150g)\n\n13:00 - Almoço\n1/4 de prato de Horticulas cozinhadas (50g)\n5 Gramas de Azeite virgem-extra (1 c. sobremesa)\n150 Gramas de Peito de Frango ou Vitela\n250 Gramas de Arroz, cozido simples\n1 unidade de Fruta (150g)\n1 Fatia de Bolo de Laranja (60g)\n1 Copo médio de Água(200mg)\n\n17:00 - Lanche da tarde\n1 unidade de Pão de centeio (90g)\n1 fatia de Queijo flamengo, meio gordo (20g)\n1 fatia média de Fiambre, de aves, peru ou frango (12g)\n1 unidade de Compal AntiOx Frutos Vermelhos (350ml)\n\n20:00 - Jantar\n1/2 prato de Horticulas cozinhados ou crus (150g)\n1 c. sopa de Azeite virgem-extra para temperar (10g)\n150 gramas de carne branca cozinhada\n250 gramas de Arroz,cozido simples\n1 copo médio de Água (200mg)"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:layout_marginTop="55dp"
+        />
+
+
+
+
+</RelativeLayout>
