@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".perfil">
+    tools:context=".espetada_paris">
 
 
     <TextView
@@ -20,7 +20,7 @@
         android:layout_marginTop="13dp"
         android:layout_marginEnd="50dp"
         android:layout_marginBottom="50dp"
-        android:text="Salada Fria de Macarrão"
+        android:text="Espetada de Frango à Paris"
         android:textColor="@color/black"
         android:textSize="25sp"
         android:textStyle="bold" />
@@ -32,12 +32,13 @@
         android:layout_centerVertical="true"
         android:layout_marginTop="120dp"
         android:layout_marginBottom="50dp"
-        android:text="\n\n\n\n\n\n\n\n\n\n\n\n\nPreparação:\n\n
-        Em uma panela grande com água fervente e sal, cozinhe o macarrão até ficar com a consistência al dente.\n
-        Depois, lave em água fria e escorra.\n
-        Em uma tigela grande, misture o macarrão, o tomate, o aipo e o atum.\n
-        Prepare o molho por mexendo a maionese, o molho para salada, o açúcar e a pimenta.\n
-        Adicione o molho na salada de macarrão, misture e leve à geladeira por 1 hora antes de servir."
+        android:text="\n\n\n\n\n\n\n\n\n\n\n\n\nPreparação:\n
+        Misture a mostarda, o azeite, o tabasco, o tomilho, o alho\n e o manjericão numa tigela funda não metálica, larga o\n suficiente para conter 6 espetos.\n
+        Tempere os pedaços de frango com um pouco de sal e pimenta, e a seguir coloque-os nos espetos. Coloque os\n espetos na marinada e
+    volte-os de maneira a envolvê-los.\n
+        Tape e coloque no frigorífico por 1 hora, mexendo de vez\n em quando. Pré-aqueça a grelha no máximo e pincele o\n tabuleiro com azeite.\n
+       Disponha as espetadas no tabuleiro, pincele com metade da marinada e grelhe durante cerca de 6 minutos. Volte-as, pincele-as com
+    o resto da marinada e grelhe por mais 2 a 3 minutos, até o frango estar tenro e grelhado.\n"
         android:textColor="@color/black" />
 
     <LinearLayout
@@ -56,15 +57,18 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="100dp"
             android:layout_marginBottom="0dp"
-            android:text="Ingredientes:\n
-        1 pacote de macarrão integral tipo pene\n
-        3 tomates descascados, sem sementes e cortados em cubos\n
-        3 talos de aipo picados\n
-        1 lata de atum ralado\n
-        1 e 1/2 xícaras de maionese light\n
-        1 colher de sopa de molho italiano para salada\n
-        1 colher de sopa de açúcar refinado\n
-        1 pitada de pimenta preta"
+            android:text="Ingredientes:\n\
+        3 peitos de frango sem pele cortados em pedaços\n
+        Sal e pimenta preta moída no momento\n
+
+        Para a marinada:\n
+        3 colheres de sopa de molho de mostarda\n
+        1 colher de sopa de azeite\n
+        1/2 colher de chá de Tabasco\n
+        1 dente de alho esmagado\n
+        1/2 colher de chá de tomilho seco\n
+        3 folhas de manjericão\n
+        Folhas de manjericão para guarnecer"
             android:textColor="@color/black" />
     </LinearLayout>
 
@@ -75,8 +79,8 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
-        android:layout_marginRight="10dp"
-        android:layout_marginBottom="101dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="49dp"
         android:onClick="voltar3"
         android:text="Voltar" />
 

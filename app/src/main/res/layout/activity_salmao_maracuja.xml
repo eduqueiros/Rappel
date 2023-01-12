@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".perfil">
+    tools:context=".salmao_maracuja">
 
 
     <TextView
@@ -20,7 +20,7 @@
         android:layout_marginTop="13dp"
         android:layout_marginEnd="50dp"
         android:layout_marginBottom="50dp"
-        android:text="Salada Fria de Macarrão"
+        android:text="Salmão com molho de Maracuja"
         android:textColor="@color/black"
         android:textSize="25sp"
         android:textStyle="bold" />
@@ -32,12 +32,17 @@
         android:layout_centerVertical="true"
         android:layout_marginTop="120dp"
         android:layout_marginBottom="50dp"
-        android:text="\n\n\n\n\n\n\n\n\n\n\n\n\nPreparação:\n\n
-        Em uma panela grande com água fervente e sal, cozinhe o macarrão até ficar com a consistência al dente.\n
-        Depois, lave em água fria e escorra.\n
-        Em uma tigela grande, misture o macarrão, o tomate, o aipo e o atum.\n
-        Prepare o molho por mexendo a maionese, o molho para salada, o açúcar e a pimenta.\n
-        Adicione o molho na salada de macarrão, misture e leve à geladeira por 1 hora antes de servir."
+        android:text="\n\n\n\n\n\n\n\nPreparação:\n
+        Corte o maracujá ao meio e coloque a polpa no \nliquidificador durante 30 segundos. Passe o sumo por um\n coador de modo a eliminar as sementes.\n
+        Corte a cebola em pedaços finos e pequenos e reserve.\n
+        Numa panela coloque o azeite e aqueça. Acrescente a cebola e refogue até ficar macia.\n
+        Junte o sumo de maracujá, o sumo do ½ limão. Mexa bem\n e deixe reduzir o molho, mais ou menos 5 minutos;\n
+        Pré-aqueça o forno a 180ºC.\n
+        Pique o alecrim e tempere os lombos de salmão com o alecrim, sal e pimenta a gosto. Reserve.\n
+        Forre um tabuleiro de forno com papel de alumínio,\n coloque os lombos de salmão numa metade do papel e\n cubra-os com a restante metade.\n
+        Coloque o tabuleiro no forno e deixe assar entre 20 a 30 minutos, de acordo com a sua preferência.\n
+        Vá observando de modo a que o salmão fique macio e suculento e não seco.\n
+        Retire os lombos de salmão do forno, coloque num prato e cubra com o molho de maracujá."
         android:textColor="@color/black" />
 
     <LinearLayout
@@ -57,14 +62,12 @@
             android:layout_marginTop="100dp"
             android:layout_marginBottom="0dp"
             android:text="Ingredientes:\n
-        1 pacote de macarrão integral tipo pene\n
-        3 tomates descascados, sem sementes e cortados em cubos\n
-        3 talos de aipo picados\n
-        1 lata de atum ralado\n
-        1 e 1/2 xícaras de maionese light\n
-        1 colher de sopa de molho italiano para salada\n
-        1 colher de sopa de açúcar refinado\n
-        1 pitada de pimenta preta"
+        1 maracujá\n
+        ½ cebola\n
+        1 c. de sopa de azeite virgem extra\n
+        Sumo de ½ limão1 ramo de alecrim fresco\n
+        2 lombos de salmão\n
+        Sal e pimenta q.b.\n"
             android:textColor="@color/black" />
     </LinearLayout>
 
@@ -75,8 +78,8 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
-        android:layout_marginRight="10dp"
-        android:layout_marginBottom="101dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="15dp"
         android:onClick="voltar3"
         android:text="Voltar" />
 

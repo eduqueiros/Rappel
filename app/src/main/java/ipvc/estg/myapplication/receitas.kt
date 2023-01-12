@@ -29,5 +29,10 @@ class receitas : AppCompatActivity() {
         startActivity(receitas_manter)
     }
 
+    fun remagrecer(view: View){
+        val receitas_emagrecer = Intent(this, receitas_emagrecer::class.java)
+        startActivity(receitas_emagrecer)
+    }
+
 
 }

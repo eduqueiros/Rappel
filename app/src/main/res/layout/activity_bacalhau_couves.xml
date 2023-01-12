@@ -20,7 +20,7 @@
         android:layout_marginTop="13dp"
         android:layout_marginEnd="50dp"
         android:layout_marginBottom="50dp"
-        android:text="Salada Fria de Macarrão"
+        android:text="Bacalhau com Couves"
         android:textColor="@color/black"
         android:textSize="25sp"
         android:textStyle="bold" />
@@ -32,12 +32,12 @@
         android:layout_centerVertical="true"
         android:layout_marginTop="120dp"
         android:layout_marginBottom="50dp"
-        android:text="\n\n\n\n\n\n\n\n\n\n\n\n\nPreparação:\n\n
-        Em uma panela grande com água fervente e sal, cozinhe o macarrão até ficar com a consistência al dente.\n
-        Depois, lave em água fria e escorra.\n
-        Em uma tigela grande, misture o macarrão, o tomate, o aipo e o atum.\n
-        Prepare o molho por mexendo a maionese, o molho para salada, o açúcar e a pimenta.\n
-        Adicione o molho na salada de macarrão, misture e leve à geladeira por 1 hora antes de servir."
+        android:text="\n\n\n\n\n\n\n\n\n\n\n\Preparação:\n
+        Comece por cozinhar o bacalhau, previamente demolhado,\n a vapor.\n
+        Corte o talo da couve lombarda e separe as folhas. Repita\n o processo para a couve branca e a couve portuguesa\n
+        Adicione as folhas de couve lombarda, branca e\n portuguesa ao tacho do bacalhau para que cozam\n ligeiramente a vapor e percam a firmeza.\n
+        Numa frigideira, coloque uma colher de sopa de azeite e\n dois dentes de alho laminados. Retire as couves do tacho e salteie na frigideira de modo a alourar a couve. Tempere\n com sal e pimenta e envolva.\n
+        Sirva o bacalhau com as couves.\n"
         android:textColor="@color/black" />
 
     <LinearLayout
@@ -56,15 +56,14 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="100dp"
             android:layout_marginBottom="0dp"
-            android:text="Ingredientes:\n
-        1 pacote de macarrão integral tipo pene\n
-        3 tomates descascados, sem sementes e cortados em cubos\n
-        3 talos de aipo picados\n
-        1 lata de atum ralado\n
-        1 e 1/2 xícaras de maionese light\n
-        1 colher de sopa de molho italiano para salada\n
-        1 colher de sopa de açúcar refinado\n
-        1 pitada de pimenta preta"
+            android:text="Ingredientes:\n\n
+        4 postas de bacalhau\n
+        450g couve lombarda\n
+        450g couve branca\n
+        450g couve portuguesa\n
+        1 c. sopa azeite\n
+        2 dentes de alho\n
+        Sal e pimenta q.b.\n"
             android:textColor="@color/black" />
     </LinearLayout>
 
@@ -75,8 +74,8 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
-        android:layout_marginRight="10dp"
-        android:layout_marginBottom="101dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="55dp"
         android:onClick="voltar3"
         android:text="Voltar" />
 

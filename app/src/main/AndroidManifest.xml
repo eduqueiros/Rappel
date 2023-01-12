@@ -15,6 +15,34 @@
         android:theme="@style/Theme.ProjetoPM"
         tools:targetApi="31">
         <activity
+            android:name=".espetada_paris"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".salmao_maracuja"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".bacalhau_couves"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".receitas_emagrecer"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".frango_milho"
             android:exported="false">
             <meta-data

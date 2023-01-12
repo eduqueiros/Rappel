@@ -75,39 +75,39 @@
         android:layout_marginTop="50dp"
         android:layout_marginEnd="50dp"
         android:layout_marginBottom="50dp"
-        android:text="Receitas Manter"
+        android:text="Receitas Emagrecer"
         android:textColor="@color/black"
         android:textSize="25sp"
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/salada"
+        android:id="@+id/salmao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_marginBottom="52dp"
-        android:onClick="salada"
-        android:text="Salada Fria de Macarrão" />
+        android:onClick="salmao"
+        android:text="Salmão com molho de Maracuja" />
 
     <Button
-        android:id="@+id/frango"
+        android:id="@+id/espetada"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/salada"
+        android:layout_below="@+id/salmao"
         android:layout_centerInParent="true"
         android:layout_marginBottom="52dp"
-        android:onClick="frango"
-        android:text="Frango Grelhado com Salada de Milho" />
+        android:onClick="espetada"
+        android:text="Espetada de Frango à Paris" />
 
     <Button
-        android:id="@+id/espinafre"
+        android:id="@+id/bacalhau"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/salada"
+        android:layout_above="@+id/salmao"
         android:layout_centerInParent="true"
         android:layout_marginBottom="60dp"
-        android:onClick="espinafre"
-        android:text="Omelete de Espinafre" />
+        android:onClick="bacalhau"
+        android:text="Bacalhau com Couves" />
 
     <Button
         android:layout_width="wrap_content"
