@@ -38,6 +38,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:backgroundTint="#FF9800"
+        android:textColor="@color/white"
         android:backgroundTintMode="add"
         android:onClick="emagrecer"
         android:marqueeRepeatLimit="marquee_forever"
@@ -50,6 +51,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:backgroundTint="#FF9800"
+        android:textColor="@color/white"
         android:onClick="frente"
         android:marqueeRepeatLimit="marquee_forever"
         android:text="ganhar peso" />
@@ -61,6 +63,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:backgroundTint="#FF9800"
+        android:textColor="@color/white"
         android:marqueeRepeatLimit="marquee_forever"
         android:onClick="manter"
         android:text="manter peso" />
