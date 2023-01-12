@@ -15,6 +15,13 @@
         android:theme="@style/Theme.ProjetoPM"
         tools:targetApi="31">
         <activity
+            android:name=".salada_macarrao"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".omelete_espinafre"
             android:exported="false">
             <meta-data

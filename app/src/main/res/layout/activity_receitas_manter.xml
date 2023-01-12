@@ -86,8 +86,8 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_marginBottom="52dp"
-        android:onClick="remagrecer"
-        android:text="Salada Fria de Macarrão"/>
+        android:onClick="salada"
+        android:text="Salada Fria de Macarrão" />
 
     <Button
         android:id="@+id/frango"

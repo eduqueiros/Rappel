@@ -15,4 +15,9 @@ class receitas_manter : AppCompatActivity() {
         val omelete_espinafre = Intent(this, omelete_espinafre::class.java)
         startActivity(omelete_espinafre)
     }
+
+    fun salada(view: View){
+        val salada_macarrao = Intent(this, salada_macarrao::class.java)
+        startActivity(salada_macarrao)
+    }
 }
