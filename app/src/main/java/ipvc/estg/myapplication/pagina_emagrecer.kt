@@ -28,4 +28,8 @@ class pagina_emagrecer : AppCompatActivity() {
         val perfil = Intent(this, perfil::class.java)
         startActivity(perfil)
     }
+    fun receitas2(view: View){
+        val receitas = Intent(this, receitas::class.java)
+        startActivity(receitas)
+    }
 }
