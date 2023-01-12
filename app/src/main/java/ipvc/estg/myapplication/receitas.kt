@@ -34,5 +34,10 @@ class receitas : AppCompatActivity() {
         startActivity(receitas_emagrecer)
     }
 
+    fun rganharpeso(view: View){
+        val receitas_engordar = Intent(this, receitas_engordar::class.java)
+        startActivity(receitas_engordar)
+    }
+
 
 }

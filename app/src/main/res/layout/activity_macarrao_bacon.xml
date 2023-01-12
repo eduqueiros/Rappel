@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".bacalhau_couves">
+    tools:context=".espetada_paris">
 
 
     <TextView
@@ -20,7 +20,7 @@
         android:layout_marginTop="13dp"
         android:layout_marginEnd="50dp"
         android:layout_marginBottom="50dp"
-        android:text="Bacalhau com Couves"
+        android:text="Macarrão com Brocolos e Bacon"
         android:textColor="@color/black"
         android:textSize="25sp"
         android:textStyle="bold" />
@@ -32,12 +32,13 @@
         android:layout_centerVertical="true"
         android:layout_marginTop="120dp"
         android:layout_marginBottom="50dp"
-        android:text="\n\n\n\n\n\n\n\n\n\n\n\Preparação:\n
-        Comece por cozinhar o bacalhau, previamente demolhado,\n a vapor.\n
-        Corte o talo da couve lombarda e separe as folhas. Repita\n o processo para a couve branca e a couve portuguesa\n
-        Adicione as folhas de couve lombarda, branca e\n portuguesa ao tacho do bacalhau para que cozam\n ligeiramente a vapor e percam a firmeza.\n
-        Numa frigideira, coloque uma colher de sopa de azeite e\n dois dentes de alho laminados. Retire as couves do tacho e salteie na frigideira de modo a alourar a couve. Tempere\n com sal e pimenta e envolva.\n
-        Sirva o bacalhau com as couves.\n"
+        android:text="\n\n\n\n\n\n\n\n\n\n\nPreparação:\n
+        Leve uma panela ao fogo médio, coloque o macarrão, a água e o sal, e deixe cozinhar até ele ficar al dente.\n
+        Depois, escorra a água, e reserve;\n
+        Leve outra panela ao fogo, adicione o azeite, e frite o bacon;\n
+        Acrescente os brócolos, o sal, a pimenta, coloque água, tampe a panela, e deixe-o cozinhar (ponto al dente) até a água secar;\n
+        Coloque a manteiga, misture, e desligue fogo;\n
+        Transfira o macarrão para um refratário, junte o brócolis e o bacon e sirva!\n"
         android:textColor="@color/black" />
 
     <LinearLayout
@@ -57,13 +58,14 @@
             android:layout_marginTop="100dp"
             android:layout_marginBottom="0dp"
             android:text="Ingredientes:\n\n
-        4 postas de bacalhau\n
-        450g couve lombarda\n
-        450g couve branca\n
-        450g couve portuguesa\n
-        1 c. sopa azeite\n
-        2 dentes de alho\n
-        Sal e pimenta q.b.\n"
+        500 g de macarrão (tipo penne)\n
+        2 colheres de café de sal\n
+        1 fio de azeite\n
+        300 g de bacon picado\n
+        1 maço de brócolis picado\n
+        50 ml de água\n
+        1 pitada de pimenta\n
+        1 colher de sopa de manteiga\n"
             android:textColor="@color/black" />
     </LinearLayout>
 
@@ -74,8 +76,8 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
-        android:layout_marginRight="4dp"
-        android:layout_marginBottom="55dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="49dp"
         android:onClick="voltar3"
         android:text="Voltar" />
 

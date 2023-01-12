@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".perfil">
+
+    <ImageView
+        android:id="@+id/inicio"
+        android:layout_width="52dp"
+        android:layout_height="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="7dp"
+        android:onClick="inicial"
+        app:srcCompat="@drawable/imagem1" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="42dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="85dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/_bc778d0c20c509a77c0c81c38c2abbe" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="40dp"
+        android:layout_height="43dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/planodesaude" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="51dp"
+        android:layout_height="49dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="98dp"
+        android:layout_marginRight="87dp"
+        android:layout_marginBottom="9dp"
+        android:onClick="pdietas"
+        app:srcCompat="@drawable/plano" />
+
+    <ImageView
+        android:id="@+id/perfil2"
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginBottom="9dp"
+        android:onClick="perfil2"
+        app:srcCompat="@drawable/_250689" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="Receitas Ganhar Peso"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/peixe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="52dp"
+        android:onClick="peixe"
+        android:text="Peixe Panado" />
+
+    <Button
+        android:id="@+id/mac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/peixe"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="52dp"
+        android:onClick="mac"
+        android:text="Macarrão com brocolos e Bacon" />
+
+    <Button
+        android:id="@+id/carne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/peixe"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="60dp"
+        android:onClick="carne"
+        android:text="Carne Assada com batata e Queijo" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="101dp"
+        android:onClick="voltar4"
+        android:text="Voltar" />
+
+
+</RelativeLayout>
