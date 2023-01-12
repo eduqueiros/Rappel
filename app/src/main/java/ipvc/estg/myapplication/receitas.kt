@@ -23,4 +23,11 @@ class receitas : AppCompatActivity() {
         val perfil = Intent(this, perfil::class.java)
         startActivity(perfil)
     }
+
+    fun rmanter(view: View){
+        val receitas_manter = Intent(this, receitas_manter::class.java)
+        startActivity(receitas_manter)
+    }
+
+
 }
