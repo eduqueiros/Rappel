@@ -79,6 +79,8 @@
         android:layout_centerInParent="true"
         android:layout_marginRight="7dp"
         android:layout_marginBottom="49dp"
+        android:backgroundTint="#FF7F00"
+        android:textColor="@color/white"
         android:onClick="voltar3"
         android:text="Voltar" />
 
