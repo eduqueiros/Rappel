@@ -29,6 +29,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="80dp"
         android:backgroundTint="#FF9800"
+        android:textColor="@color/white"
         android:backgroundTintMode="add"
         android:marqueeRepeatLimit="marquee_forever"
         android:text="CRIAR PERFIL" />
@@ -40,6 +41,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:backgroundTint="#FF9800"
+        android:textColor="@color/white"
         android:onClick="sessao"
         android:marqueeRepeatLimit="marquee_forever"
         android:text="INICIAR SESSÃO" />

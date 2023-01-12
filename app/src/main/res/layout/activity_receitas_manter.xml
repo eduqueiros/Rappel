@@ -87,6 +87,7 @@
         android:layout_centerInParent="true"
         android:layout_marginBottom="52dp"
         android:backgroundTint="#FF7F00"
+        android:textColor="@color/white"
         android:onClick="salada"
         android:text="Salada Fria de Macarrão" />
 
@@ -98,6 +99,7 @@
         android:layout_centerInParent="true"
         android:layout_marginBottom="52dp"
         android:backgroundTint="#FF7F00"
+        android:textColor="@color/white"
         android:onClick="frango"
         android:text="Frango Grelhado com Salada de Milho" />
 
@@ -109,6 +111,7 @@
         android:layout_centerInParent="true"
         android:layout_marginBottom="60dp"
         android:backgroundTint="#FF7F00"
+        android:textColor="@color/white"
         android:onClick="espinafre"
         android:text="Omelete de Espinafre" />
 
@@ -121,6 +124,7 @@
         android:layout_marginRight="10dp"
         android:layout_marginBottom="101dp"
         android:backgroundTint="#FF7F00"
+        android:textColor="@color/white"
         android:onClick="voltar4"
         android:text="Voltar" />
 

@@ -87,6 +87,7 @@
         android:layout_centerInParent="true"
         android:layout_marginBottom="52dp"
         android:backgroundTint="#FF7F00"
+        android:textColor="@color/white"
         android:onClick="peixe"
         android:text="Peixe Panado" />
 
@@ -98,6 +99,7 @@
         android:layout_centerInParent="true"
         android:layout_marginBottom="52dp"
         android:backgroundTint="#FF7F00"
+        android:textColor="@color/white"
         android:onClick="mac"
         android:text="Macarrão com brocolos e Bacon" />
 
@@ -109,6 +111,7 @@
         android:layout_centerInParent="true"
         android:layout_marginBottom="60dp"
         android:backgroundTint="#FF7F00"
+        android:textColor="@color/white"
         android:onClick="carne"
         android:text="Carne Assada com batata e Queijo" />
 
@@ -120,6 +123,7 @@
         android:layout_centerInParent="true"
         android:layout_marginRight="10dp"
         android:backgroundTint="#FF7F00"
+        android:textColor="@color/white"
         android:layout_marginBottom="101dp"
         android:onClick="voltar4"
         android:text="Voltar" />
