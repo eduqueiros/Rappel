@@ -34,12 +34,6 @@ class perfil : AppCompatActivity() {
             }
     }
 
-
-    fun receitas(view: View){
-        val dietas = Intent(this, dietas::class.java)
-        startActivity(dietas)
-    }
-
     fun saude(view: View){
         val psaude = Intent(this, psaude::class.java)
         startActivity(psaude)
@@ -57,5 +51,10 @@ class perfil : AppCompatActivity() {
     fun volta(view: View){
         val pagina_inicial = Intent(this, pagina_inicial::class.java)
         startActivity(pagina_inicial)
+    }
+
+    fun receitas2(view: View){
+        val receitas = Intent(this, ipvc.estg.myapplication.receitas::class.java)
+        startActivity(receitas)
     }
 }

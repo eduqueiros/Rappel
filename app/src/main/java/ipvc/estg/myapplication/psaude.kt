@@ -31,4 +31,9 @@ class psaude : AppCompatActivity() {
         val pagina_inicial = Intent(this, pagina_inicial::class.java)
         startActivity(pagina_inicial)
     }
+
+    fun receitas2(view: View){
+        val receitas = Intent(this, receitas::class.java)
+        startActivity(receitas)
+    }
 }

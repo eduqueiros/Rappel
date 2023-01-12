@@ -35,7 +35,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginRight="85dp"
         android:layout_marginBottom="10dp"
-        android:onClick="receitas"
+        android:onClick="receitas2"
         app:srcCompat="@drawable/_bc778d0c20c509a77c0c81c38c2abbe" />
 
     <ImageView
