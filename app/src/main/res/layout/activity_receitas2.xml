@@ -89,6 +89,7 @@
         android:layout_marginBottom="52dp"
         android:onClick="remagrecer"
         android:backgroundTint="#FF7F00"
+        android:textColor="@color/white"
         android:text="emagrecer" />
 
     <Button
@@ -100,6 +101,7 @@
         android:layout_marginBottom="52dp"
         android:onClick="rganharpeso"
         android:backgroundTint="#FF7F00"
+        android:textColor="@color/white"
         android:text="Ganhar Peso" />
 
     <Button
@@ -110,6 +112,7 @@
         android:layout_centerInParent="true"
         android:layout_marginBottom="52dp"
         android:onClick="rmanter"
+        android:textColor="@color/white"
         android:backgroundTint="#FF7F00"
         android:text="Manter" />
 
