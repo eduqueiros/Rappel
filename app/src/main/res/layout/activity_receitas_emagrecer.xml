@@ -86,6 +86,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_marginBottom="52dp"
+        android:backgroundTint="#FF7F00"
         android:onClick="salmao"
         android:text="Salmão com molho de Maracuja" />
 
@@ -96,6 +97,7 @@
         android:layout_below="@+id/salmao"
         android:layout_centerInParent="true"
         android:layout_marginBottom="52dp"
+        android:backgroundTint="#FF7F00"
         android:onClick="espetada"
         android:text="Espetada de Frango à Paris" />
 
@@ -106,6 +108,7 @@
         android:layout_above="@+id/salmao"
         android:layout_centerInParent="true"
         android:layout_marginBottom="60dp"
+        android:backgroundTint="#FF7F00"
         android:onClick="bacalhau"
         android:text="Bacalhau com Couves" />
 
@@ -116,6 +119,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
         android:layout_marginRight="10dp"
+        android:backgroundTint="#FF7F00"
         android:layout_marginBottom="101dp"
         android:onClick="voltar4"
         android:text="Voltar" />

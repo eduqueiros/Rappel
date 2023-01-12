@@ -88,17 +88,19 @@
         android:layout_centerInParent="true"
         android:layout_marginBottom="52dp"
         android:onClick="remagrecer"
-        android:text="emagrecer"/>
+        android:backgroundTint="#FF7F00"
+        android:text="emagrecer" />
 
     <Button
         android:id="@+id/rganharpeso"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/remagracer"
         android:layout_centerInParent="true"
         android:layout_marginBottom="52dp"
-        android:layout_below="@+id/remagracer"
         android:onClick="rganharpeso"
-        android:text="Ganhar Peso"/>
+        android:backgroundTint="#FF7F00"
+        android:text="Ganhar Peso" />
 
     <Button
         android:id="@+id/rmanter"
@@ -108,6 +110,7 @@
         android:layout_centerInParent="true"
         android:layout_marginBottom="52dp"
         android:onClick="rmanter"
+        android:backgroundTint="#FF7F00"
         android:text="Manter" />
 
 
