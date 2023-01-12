@@ -26,8 +26,6 @@ class criarperfil : AppCompatActivity() {
             val age = binding.age.text.toString()
             val altura = binding.altura.text.toString()
             val genero = binding.genero.text.toString()
-
-
             val pesoa = binding.pesoa.text.toString()
             val mpeso = binding.mpeso.text.toString()
             val pobjetivo = binding.pobjetivo.text.toString()
